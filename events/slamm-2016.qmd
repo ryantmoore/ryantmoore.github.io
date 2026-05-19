@@ -1,0 +1,83 @@
+---
+title: "SLAMM! 2016"
+pagetitle: "SLAMM! 2016 — The Saint Louis Area Methods Meeting"
+toc: true
+toc-location: right
+toc-title: "On this page"
+---
+
+::: {.text-center}
+**The Saint Louis Area Methods Meeting**\
+American University\
+Washington, DC\
+Friday, 29 April 2016
+:::
+
+## Registration
+
+SLAMM! is always free to attend, but registration is mandatory.
+
+## Schedule
+
+[PDF version](/files/slamm/slammSchedule.pdf).
+
+- **8:45 – 9:15 am** — Coffee and light breakfast
+- **9:15 – 9:30** — Opening remarks
+- **9:30 – 10:30** — "Identification and Estimation of Joint Treatment Effects with Instrumental Variables"\
+  [Matthew Blackwell](http://www.mattblackwell.org/), Harvard University.
+  [Paper PDF](http://www.mattblackwell.org/files/papers/joint-iv.pdf).\
+  *Discussant: [Jamie Monogan](http://spia.uga.edu/directory/faculty_staff/monogan-james), University of Georgia.*
+- **10:45 – 11:45** — "Voters, Nonvoters and Attitudes Toward Income Inequality"\
+  [Jan Leighley](http://www.american.edu/spa/faculty/leighley.cfm), American University.\
+  *Discussant: [Christopher Hare](http://www.christopherdhare.com/), University of California, Davis.*
+- **Noon – 12:30** — "NSF Funding Opportunities for Political Methodologists"\
+  [Cheryl L. Eavey](http://www.nsf.gov/staff/staff_bio.jsp?lan=ceavey&org=NSF), National Science Foundation.
+- **12:30 – 1:45** — Lunch
+- **1:45 – 2:45** — "Can Caucuses Alleviate Partisan Polarization in Congress?"\
+  [Jennifer N. Victor](http://spgia.gmu.edu/faculty-staff/faculty/jennifer-n-victor/), George Mason University.
+  [Paper PDF](/files/slamm/VictorHaptonstahlRinge.pdf).\
+  *Discussant: [Chris Warshaw](http://cwarshaw.scripts.mit.edu/), MIT.*
+- **2:45 – 3:00 pm** — Coffee and light snack
+- **3:00 – 4:00 pm** — "What's the Alternative?: An Equivalence Approach to Balance and Placebo Tests"\
+  [Erin Hartman](http://www.erinhartman.com/), Princeton University / University of California, Los Angeles.
+  [Paper PDF](/files/slamm/hartman_equivalence_SLAMM2016.pdf).\
+  *Discussant: [Hans Noel](http://faculty.georgetown.edu/hcn4/), Georgetown.*
+- **4:00 – 4:10 pm** — Closing remarks
+- **5 – 8 pm** — Conference Dinner\
+  Chef Geoff's ([link](http://www.chefgeoff.com/))\
+  3201 New Mexico Ave NW\
+  ([PDF map](/files/slamm/dinner.pdf)).
+
+## Location
+
+Yuma Building at the Washington College of Law (WCL)\
+Terrace Room 17.
+
+## Directions
+
+WCL is 1 block from the Tenleytown-AU Metro Station, on [Metro](http://www.wmata.com/)'s Red Line. The Yuma Building is directly across the street from 4001 Yuma Street NW. If you enter the WCL Warren Building at 4300 Nebraska Avenue NW, walk straight through and access the Yuma Building from the WCL courtyard.
+
+## Parking at WCL
+
+A limited number of free parking passes are available. Please email ccps@american.edu for a permit.
+
+Parking is available at WCL for $2 per hour, $16 per day. The parking entrance is on 4300 Nebraska Avenue. To get to the Yuma Building, Terrace Room 17, drive to the end of level P1 or P2, take the bank of elevators there, come up to Terrace Level, and YT 17 is down the hallway in front of you, slightly to left.
+
+## Nearby hotels
+
+See [the AU local hotels list](http://www.american.edu/ocl/orientation/Local-Hotels.cfm) for hotels near American University.
+
+## Coffee near WCL
+
+- Atrium Cafe (between the Yuma Building and Capital Hall)
+- WCL Dining Hall (Yuma Building)
+- [Bourbon Coffee](http://bourboncoffee.com/), 4200 Wisconsin Ave NW
+- Panera, 4501 Wisconsin Ave NW
+- Starbucks, 4513 Wisconsin Ave NW
+
+## Special thanks
+
+We are indebted to our sponsors for making this meeting possible:
+
+- The [Center for Congressional and Presidential Studies](http://www.american.edu/spa/ccps/) at American University.
+- The [School of Public Affairs Dean's office](http://www.american.edu/spa/about/dean-message.cfm) Excellence with Impact program.

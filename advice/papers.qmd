@@ -1,0 +1,81 @@
+---
+title: "Advice for Political Science Paper Writers"
+pagetitle: "Advice for Paper Writers — Ryan T. Moore"
+toc: true
+toc-location: right
+toc-title: "On this page"
+---
+
+## Topic, question, thesis
+
+- Make sure your paper is *analytic*. Argue for an analytic (or "positive") stance, rather than a normative one. In other words, engage in "objective" rather than "subjective" analysis. Answer the question "what is?", rather than the question "what should be?".
+
+## Audience and voice
+
+- You are writing for a professional audience. Choose language and a tone that reflect this.
+- Provide enough political, social, and/or intellectual context for your reader to understand the issue you address, and why one should care about it.
+- When describing procedures you undertook, write in the first person. For example, write "We collected data from 1000 web sites" or "I then regress the outcome on two predictors, `X1` and `X2`". Avoid the passive voice. (Do not write "The data from 1000 web sites were collected" or "The outcome was regressed on `X1` and `X2`". These leave us wondering, "by whom?")
+
+## Research strategies
+
+- Clearly state your specific question. Your question is a case of a more general set of political phenomena. Know the literature from the more general set.
+- Compare your political phenomenon of interest to models of how politics works in such cases.
+- Understand counterarguments, alternative explanations, and competing hypotheses to your own. Refute them to the extent possible.
+
+## Structure
+
+- Read and follow the ["Ten Simple Rules for Structuring Papers"](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619).
+
+## Content
+
+- Be clear whether you're making *descriptive* or *causal* claims.
+- Make claims that are falsifiable. How would you know if you were wrong? What evidence would disagree with your argument?
+- In making causal claims, the nature of the implicit or explicit comparison group is important.
+- In making causal claims, do not control for or match on post-treatment quantities; avoid *post-treatment bias*.
+- Discuss measurement, modeling, design, and data strategies. Discuss limitations of your approaches.
+- Do not include the specific names of variables or objects in your paper. It can be important to describe a variable you created, but its name is not important to the reader. For example, you might write "We create a binary measure of ideology that is 1 for respondents with scores greater than the median and 0 for those at or below the median." You should not include the fact that you named the variable `ideo7gr_med`.
+- Provide the details of your quantitative results.
+- Web sources should exclude wikis, include full citations (including access date), and be kept to a minimum. When possible, cite the original published document instead of the web version.
+
+## Style
+
+- Be clear.
+- Be concise.
+- Be coherent.
+
+## Formatting
+
+- Submit your paper with a title page containing the title of the paper, author names, the date, a word count, and an abstract of 150 words or fewer.
+- Papers written for GOVT 310, "Introduction to Political Research", do not have a page limit. Most successful submissions range from 8–20 pages.
+- For word counts:
+    - Include words that are in section headings, footnotes, in-text citations, and table or figure captions.
+    - Exclude words that are on the title page, or are in the bibliography.
+- Double-space the content of the paper; single-space footnotes, captions, and the bibliography.
+- Provide 1 inch margins on all four sides.
+- Use a 12- (or 11-) point font.
+- Provide page numbers.
+- Staple your pages with a single staple in the upper left-hand corner.
+- References in the text should employ a consistent formatting style. In political science, consider emulating the style used in the *APSR* or *Political Analysis*.
+- You may use footnotes or in-text citations.
+- If a figure or table is central to your argument, include it in the body of your paper. If it is supplementary, include it in an appendix.
+
+## Data
+
+- Harvard's IQSS [data compilation](http://urs.iq.harvard.edu/pages/research-resources) for research papers
+- Harvard's [Dataverse](https://dataverse.harvard.edu) for data from published studies
+- Federal Data [Field Guide](https://www.federaldatafieldguide.us) with overviews of data types, sources, and examples 
+- Sources compiled by the AU subject librarian for GOVT-310 at <https://subjectguides.library.american.edu/GOVT310Data>
+- Urban Institute's [Open Data](https://datacatalog.urban.org/search/type/dataset) portal
+- Erik Gahner's [list of political datasets](https://github.com/erikgahner/PolData)
+- The House of Representatives [Green Book](https://web.archive.org/web/20141010212346/http://greenbook.waysandmeans.house.gov/) with policy data on programs within Ways & Means' jurisdiction (e.g., 50 years of [average welfare caseloads](https://web.archive.org/web/20141010212346/http://greenbook.waysandmeans.house.gov/sites/greenbook.waysandmeans.house.gov/files/2012/documents/Table%207-9%20TANF.pdf))
+- The Luxembourg Income Study ([LIS](https://web.archive.org/web/20141010212346/http://www.lisdatacenter.org/data-access/)) for individual- and household-level economic activity (requires registration, which can take a few days)
+- The General Social Survey ([GSS](https://web.archive.org/web/20141010212346/http://www3.norc.org/gss+website/))
+- Data links from [Machine Learning for Social Justice](https://sites.google.com/view/ml4sj/data)
+
+## Further advice
+
+- On every step of the research process (data, coding, writing, presentation, management), see Harvard IQSS's Undergraduate [Research Resource Reservoir](https://web.archive.org/web/20141010212346/http://projects.iq.harvard.edu/undergradscholars/pages/research-resources).
+- On writing nonfiction, read William K. Zinsser's [*On Writing Well*](https://web.archive.org/web/20141010212346/http://www.amazon.com/Writing-Well-25th-Anniversary-Nonfiction/dp/0060006641) (noting that academic writing is different than humor writing, e.g.).
+- On writing for publication, read Gary King's [online notes](https://web.archive.org/web/20141010212346/http://gking.harvard.edu/papers/) and *PS: Political Science and Politics* article ([PDF](https://web.archive.org/web/20141010212346/http://gking.harvard.edu/files/paperspub.pdf)).
+- On writing for publication, read Andrew Gelman's [suggestions](https://web.archive.org/web/20141010212346/http://www.stat.columbia.edu/~cook/movabletype/archives/2009/07/advice_on_writi.html).
+- On citation, see the APSA citation style, the *Chicago Manual of Style*, and the *MLA Handbook*.

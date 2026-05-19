@@ -1,0 +1,69 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "software/*.qmd"
+    - "advice/*.qmd"
+    - "events/*.qmd"
+    - "teaching/*.qmd"
+  resources:
+    - "CNAME"
+    - ".nojekyll"
+    - "files/"
+
+website:
+  title: "Ryan T. Moore"
+  description: "Academic webpage of Ryan T. Moore — Associate Professor of Government, American University; Senior Social Scientist, The Lab @ DC."
+  site-url: "https://ryantmoore.org"
+  repo-url: "https://github.com/ryantmoore/ryantmoore.github.io"
+  open-graph: true
+  twitter-card: false
+
+  search:
+    location: navbar
+    type: overlay
+
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: /files/cvRTMoore.pdf
+        text: CV
+      - href: research.qmd
+        text: Research
+      - href: software.qmd
+        text: Software
+      - href: teaching.qmd
+        text: Teaching
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/ryantmoore
+        aria-label: GitHub
+      - icon: mastodon
+        href: https://masto.nu/@ryantmoore
+        aria-label: Mastodon
+      - text: "ORCID"
+        href: https://orcid.org/0000-0002-3916-8113
+        aria-label: ORCID
+        rel: me
+
+  page-footer:
+    left: "© 2002–2026 Ryan T. Moore"
+    right:
+      - text: "Built with [Quarto](https://quarto.org)"
+      - text: "Source"
+        href: https://github.com/ryantmoore/ryantmoore.github.io
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [cosmo, styles-dark.scss]
+    toc: false
+    page-layout: full
+    link-external-newwindow: true
+    link-external-icon: true

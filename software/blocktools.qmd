@@ -1,0 +1,145 @@
+---
+title: "blockTools"
+pagetitle: "blockTools — Ryan T. Moore"
+toc: true
+toc-location: right
+toc-title: "On this page"
+---
+
+**blockTools: Blocking, Assignment, and Diagnosing Interference in Randomized Experiments**\
+Version 0.6.6\
+Ryan T. Moore and Keith Schnakenberg\
+Available as a [CRAN package](https://cran.r-project.org/package=blockTools).
+
+## Abstract
+
+Causal inference in social and biomedical research often relies on estimates from randomized experiments. `blockTools` offers functionality for designing, conducting, and analyzing aspects of randomized experiments. "Blocking" involves sorting experimental units into homogeneous groups prior to randomization. Randomization then occurs within those groups. `blockTools` allows experimentalists to easily
+
+- block experimental units using many background covariates simultaneously (including continuous ones);
+- incorporate substantive knowledge via weights on variables;
+- randomly assign blocked units to treatment conditions within blocks;
+- detect possible interference between treatment and control units ("contamination", or "spillovers");
+- quickly write tables of proposed blocks or experimental assignment protocols to `.tex` or `.csv` files.
+
+## Documentation
+
+The [manual](http://cran.r-project.org/web/packages/blockTools/blockTools.pdf) details the many options associated with this functionality.
+
+## Installation
+
+To install and load `blockTools`, open R and type:
+
+```r
+install.packages("blockTools")
+library(blockTools)
+```
+
+To install the latest version (0.6.6) directly, download the [package tarball](/files/software/blockTools_0.6.6.tar.gz) and follow the [tar.gz install instructions](install-targz.qmd).
+
+(You might have to rezip the tarball if your downloader unzips it. I.e., if you see `blockTools_0.6.6.tar`, you might need to `gzip blockTools_0.6.6.tar` to recreate `blockTools_0.6.6.tar.gz`.)
+
+## Using blockTools
+
+There are 3 primary functions of `blockTools`: `block`, `assignment`, and `diagnose`.
+
+- `block` creates experimental blocks.
+- `assignment` assigns one unit in each block to each treatment condition.
+- `diagnose` detects units of different treatment assignments that are "too close" or "too far away" from each other on some variable.
+
+## Helper Functions
+
+You might find two recent helper functions useful:
+
+- `createBlockIDs` takes an assignment object and creates a vector of block IDs.
+- `assg2xBalance` interfaces between an assignment object and `xBalance` from package `RItools`.
+
+See the package documentation for more details.
+
+## Examples
+
+At the R prompt, type:
+
+```r
+data(x100)  ## load the example data
+out  <- block(x100, id.vars = "id", block.vars = c("b1", "b2"))
+              ## create blocked pairs
+assg <- assignment(out)
+              ## assign one member of each pair to treatment/control
+diag <- diagnose(assg, x100, id.vars = "id",
+                 suspect.var = "b1", suspect.range = c(0, 1))
+              ## detect unit pairs with different treatment assignments
+              ## that are within 1 unit of each other on variable "b1"
+```
+
+To view the results:
+
+```r
+out$blocks  ## blocked pairs
+assg        ## assigned pairs
+diag        ## pairs with small distances on covariates between them
+```
+
+## Speed and Dataset Size
+
+As of version 0.5-1, all blocking is done in C. The `block()` function in that version was tested on a desktop machine (iMac, Intel Core i5, 3.6 GHz, 8 GB) and successfully completed these runs:
+
+| Units  | Variables | Algorithm    | Time      |
+|-------:|:---------:|:-------------|:----------|
+|  1,000 |     5     | optGreedy    | 0m 1s     |
+|  5,000 |     5     | optGreedy    | 1m 35s    |
+| 10,000 |     2     | optGreedy    | 12m 53s   |
+| 10,000 |     5     | optGreedy    | 12m 38s   |
+| 10,000 |     5     | naiveGreedy  | 0m 43s    |
+| 20,000 |     5     | optGreedy    | 101m 16s  |
+| 20,000 |     5     | naiveGreedy  | 3m 59s    |
+
+## Note on Variable Restrictions
+
+If you use the `valid.var` and `valid.range` arguments of the `block` function, this may result in fewer than the maximum possible number of blocks. To see why, consider how `algorithm = "optGreedy"` or `algorithm = "naiveGreedy"` would handle the distance matrix below. Either would select only the pair (1,2), rather than, e.g., pairs (1,3) and (2,4), as would `algorithm = "optimal"`.
+
+|       |       |       |       |
+|:-----:|:-----:|:-----:|:-----:|
+| Inf   |   2   |   3   |   4   |
+|   2   | Inf   |   5   |   6   |
+|   3   |   5   | Inf   | Inf   |
+|   4   |   6   | Inf   | Inf   |
+
+## Citation
+
+If you use this package, please cite the paper
+
+> Moore, Ryan T. "Multivariate Continuous Blocking to Improve Political Science Experiments". *Political Analysis*, 20(4):460–479, Autumn 2012.
+
+or
+
+> Moore, Ryan T. and Sally A. Moore. "Blocking for Sequential Political Experiments". *Political Analysis*, 21(4):507–523, 2013.
+
+as appropriate. The software can be cited directly as
+
+> Moore, Ryan T. and Keith Schnakenberg. "blockTools: Blocking, Assignment, and Diagnosing Interference in Randomized Experiments", Version 0.6.6, January 2025.
+
+For an application, see:
+
+> King, Gary, Emmanuela Gakidou, Nirmala Ravishankar, Ryan T. Moore, Jason Lakin, Manett Vargas, Martha María Téllez-Rojo, Juan Eugenio Hernández Ávila, Mauricio Hernández Ávila, and Héctor Hernández Llamas. 2007. "A 'Politically Robust' Experimental Design for Public Policy Evaluation, with Application to the Mexican Universal Health Insurance Program". *Journal of Policy Analysis and Management*, 26(3):479–509.
+
+## Previous versions
+
+[Full CHANGELOG](http://cran.r-project.org/web/packages/blockTools/ChangeLog).
+
+- 0.6.6 (2025-01-22)
+- 0.6.5 (2024-10-19)
+- 0.6.4 (2023-02-06)
+- 0.6-3 (2 December 2016)
+- 0.6-2 (8 January 2015)
+- 0.6-1 (22 May 2014)
+- 0.5-8 (8 April 2014)
+- 0.5-7 (30 July 2013)
+- 0.5-6 (1 August 2012)
+- 0.5-5 (11 June 2012)
+- 0.5-4 (7 May 2012)
+- 0.5-3 (4 March 2011)
+- 0.5-2 (16 November 2010)
+- 0.5-1 (6 October 2010)
+- 0.4-1 (28 October 2009)
+- 0.3 (29 April 2009)
+- 0.2 (10 April 2008)

@@ -1,0 +1,65 @@
+---
+title: "Software"
+pagetitle: "Ryan T. Moore — Software"
+toc: false
+---
+
+## R packages
+
+::: {.grid .package-grid}
+
+::: {.g-col-12 .g-col-md-6 .package-card}
+### blockTools
+
+Designing, conducting, and analyzing randomized experiments — including blocking on continuous covariates, assignment, and interference diagnostics.
+
+[CRAN](https://cran.r-project.org/package=blockTools){.pkg-link} · [Details](software/blocktools.qmd){.pkg-link}
+:::
+
+::: {.g-col-12 .g-col-md-6 .package-card}
+### whatifbandit
+
+Reanalyzing randomized experiments as if they had been conducted as multi-arm bandits (MABs).
+
+[CRAN](https://cran.r-project.org/package=whatifbandit){.pkg-link} · [GitHub](https://github.com/Noch05/whatifbandit){.pkg-link}
+:::
+
+::: {.g-col-12 .g-col-md-6 .package-card}
+### muRL
+
+Mailmerge in R and LaTeX — read spreadsheets of addresses, generate customizable letters, map ZIP codes, and scrape APSA eJobs HTML.
+
+[CRAN](https://cran.r-project.org/package=muRL){.pkg-link} · [Details](software/murl.qmd){.pkg-link}
+:::
+
+::: {.g-col-12 .g-col-md-6 .package-card}
+### eiPack
+
+Ecological inference and higher-dimension data management. With Olivia Lau and Mike Kellermann.
+
+[CRAN](https://cran.r-project.org/package=eiPack){.pkg-link}
+:::
+
+::: {.g-col-12 .g-col-md-6 .package-card}
+### oesr
+
+Statistical analysis and treatment-effect reporting in the style of the US Office of Evaluation Sciences. Works with model objects from `lm()` and `estimatr::lm_robust()`.
+
+[CRAN](https://cran.r-project.org/package=oesr){.pkg-link} · [OES standards](https://oes.gsa.gov/assets/files/reporting-statistical-results.pdf){.pkg-link}
+:::
+
+:::
+
+## iOS applications
+
+::: {.grid .package-grid}
+
+::: {.g-col-12 .g-col-md-6 .package-card}
+### Milieu
+
+Apple iOS application for survey data collection with geolocation. With Pedro Valdeolmillos and Andrew Reeves.
+
+[App Store](http://appstore.com/milieusurveys){.pkg-link} · [milieu.cc](http://milieu.cc){.pkg-link} · [Details](software/milieu.qmd){.pkg-link}
+:::
+
+:::

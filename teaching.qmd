@@ -1,0 +1,73 @@
+---
+title: "Teaching"
+pagetitle: "Ryan T. Moore — Teaching"
+toc: true
+toc-location: right
+toc-title: "On this page"
+---
+
+## General advice
+
+- How to [write a successful paper](advice/papers.qmd)
+- If you want me to [write you a recommendation](advice/recs.qmd)
+- How to present a paper
+- Software ([muRL](software/murl.qmd)) to do LaTeX mailmerges, and automatically scrape APSA eJobs webpages
+- A collection of [helpful how-to guides](teaching/howtos.qmd) on R, LaTeX, GitHub, and computing for political research
+
+## This term
+
+::: {.current-term-card}
+
+**Introduction to Political Research** · GOVT 310, sections 002 and 007· Autumn 2026
+
+- [Syllabus 002](/files/class/introPolResearch/syl2025fall-004.pdf)
+- [Syllabus 007](/files/class/introPolResearch/syl2025fall-007.pdf)
+- [First Week Checklist](/files/class/introPolResearch/first_week_checklist.pdf)
+- [Intro to Course Resources](/files/class/introPolResearch/intro_Course_Tech.pdf)
+- [Short Guide to R and RStudio](/files/class/introPolResearch/intro_R_short.pdf)
+- [Guide to Quarto](/files/class/introPolResearch/intro_quarto.pdf)
+- [Instructions for `tinytex`](/files/class/introPolResearch/intro_tinytex.pdf)
+
+:::
+
+## Past courses at American University
+
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+## Show full course history
+
+::: {.course-list}
+
+- **Introduction to Quantitative Methods in Political Science** (MA, GOVT 653), Spring 2025. [Syllabus](/files/class/iqmps/syl-2026.pdf)
+- **Winter [Institute](/files/class/datascience/syl-2026.pdf) in Data Science** (SPA 020/420/620), Winter 2026.
+- **The Idea of a University** (1Y, CORE 102), Autumn 2025.
+- **Introduction to Political Research** (GOVT 310-004), Autumn 2025. [Syllabus](/files/class/introPolResearch/syl2025fall-004.pdf)
+- **Introduction to Political Research** (GOVT 310-007), Autumn 2025. [Syllabus](/files/class/introPolResearch/syl2025fall-007.pdf)
+- **Winter [Institute](/files/class/datascience/syl-2025.pdf) in Data Science** (SPA 020/420/620), Winter 2025.
+- **Introduction to Political Research** (GOVT 310-011), Autumn 2024. [Syllabus](/files/class/introPolResearch/syl2024fall.pdf)
+- **Winter [Institute](/files/class/datascience/syl-2024.pdf) in Data Science** (SPA 020/420/620), Winter 2024.
+- **Introduction to Political Research** (GOVT 310-001), Autumn 2023. [Syllabus](/files/class/introPolResearch/syl2023fall.pdf)
+- **Winter [Institute](https://www.american.edu/spa/data-science/data-science-institute.cfm) in Data Science** (SPA 420/620), Winter 2023.
+- **Introduction to Political Research** (GOVT 310-003), Autumn 2022. [Syllabus](/files/class/introPolResearch/syl2022fall.pdf) · [Guide to RMarkdown](/files/class/introPolResearch/intro_Rmarkdown.pdf)
+- **Intro to Applied Political Data Science** (GOVT 470/670), Autumn 2022. [Syllabus](/files/class/datascience/syl_rds-2022f.pdf)
+- **Introduction to Political Research** (GOVT 310-007), Autumn 2020. [Syllabus](/files/class/introPolResearch/syl2020fall.pdf) · [Longer guide to R and the VCL](/files/class/introPolResearch/intro_Using_R_VCL.pdf)
+- **Intro to Applied Political Data Science** (GOVT 470/670), Autumn 2020. [Syllabus](/files/class/datascience/syl_rds-2020f.pdf)
+- **Data Science Capstone** (GOVT 690-002), Spring 2020.
+- **Intro to Survey Research** (GOVT 496/696), Spring 2020. [Syllabus](/files/class/survey/syllabus-2020.pdf)
+- **Data Science Institute** (GOVT 496/696), Winter 2020.
+- **Intro to Applied Political Data Science** (GOVT 470/670), Autumn 2019. [Repo (private)](https://github.com/ryantmoore/rds-2019f)
+- **Conduct of Inquiry IV: Causal Inference** (SPA 615), Spring 2019. [Syllabus](/files/class/conduct4/syl-2019-spring.pdf)
+- **Intro to Programming for Applied Political Data Science** (GOVT 470/670), Spring 2019. [Repo (private)](https://github.com/ryantmoore/rds-2019s)
+- **Introduction to Political Research** (GOVT 310), Spring 2019.
+- **Intro to Programming for Applied Political Data Science** (GOVT 470/670), Autumn 2018. [Repo (private)](https://github.com/ryantmoore/rds-2018)
+- **Intro to Programming for Applied Political Data Science** (GOVT 470/670), Spring 2018. [Repo (private)](https://github.com/ryantmoore/r-data-science-class/)
+- **Introduction to Political Research** (GOVT 310), Fall 2017. [Code on `ec_votes` vector](/files/class/introPolResearch/day2_playground.R) (from class), 31 August 2017.
+- **Introduction to Political Research** (GOVT 310), Spring 2017. [Code to start swirl](/files/class/introPolResearch/day1_playground.R) (from class), 19 January 2017.
+- **Conduct of Inquiry II** (GOVT 613), Spring 2015, 2016. [Syllabus](/files/class/conduct2/syl2016c2.pdf)
+- **Conduct of Inquiry II Laboratory** (GOVT 096), Spring 2016. [Syllabus](/files/class/conduct2/sylLab2.pdf)
+- **Conduct of Inquiry I** (GOVT 612), Fall 2015. [Syllabus](/files/class/conduct1/syl2015c1.pdf)
+- **Conduct of Inquiry I Laboratory** (GOVT 096), Fall 2015. [Syllabus](/files/class/conduct1/syl2015Lab1.pdf)
+- **Political Power and American Public Policy** (GOVT 210), Fall 2014. 
+
+:::
+
+:::

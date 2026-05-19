@@ -1,0 +1,514 @@
+/*-- scss:defaults --*/
+
+// Dark-mode overrides — restrained accent stays the same hue family,
+// but slightly brighter against dark surfaces.
+$primary:        #c75050;
+$body-bg:        #1a1a1a;
+$body-color:     #e6e6e6;
+$link-color:     #e89595;
+$link-hover-color: #f4baba;
+
+$navbar-bg:      #222;
+$navbar-fg:      #ddd;
+
+$font-family-sans-serif: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headings-font-family:   "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size-base:   1.05rem;
+$h1-font-size:     2.25rem;
+$h2-font-size:     1.6rem;
+$h3-font-size:     1.25rem;
+
+/*-- scss:rules --*/
+
+body {
+  line-height: 1.55;
+}
+
+main.content {
+  max-width: 920px;
+}
+
+.lead {
+  font-size: 1.15rem;
+  color: #c8c8c8;
+}
+
+// Publication / item lists
+.pub-list, .pub-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+.pub-list > ul > li {
+  margin-bottom: 1.25rem;
+  padding-left: 0.9rem;
+  border-left: 3px solid #333;
+}
+.pub-list .pub-title {
+  font-weight: 600;
+}
+.pub-list .pub-venue {
+  font-style: italic;
+}
+.pub-list .pub-links {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: 0.15rem;
+}
+.pub-list .pub-links a {
+  margin-right: 0.4rem;
+}
+
+// Deep-link highlight (dark variant) — muted amber that reads on dark bg.
+// Triggered by .pub-target-flash class added by the JS handler in research.qmd.
+@keyframes pubTargetFlashDark {
+  0%   { background-color: rgba(212, 160, 23, 0.28); }
+  60%  { background-color: rgba(212, 160, 23, 0.28); }
+  100% { background-color: transparent; }
+}
+.pub-list > ul > li.pub-target-flash {
+  animation: pubTargetFlashDark 2.4s ease-out 1;
+  border-left-color: #d4a017;
+}
+
+.course-list > li {
+  margin-bottom: 0.5rem;
+}
+
+hr.section-divider {
+  margin: 2rem 0;
+  border-top: 1px solid #333;
+}
+
+// Software package cards
+.package-grid {
+  --bs-gutter-x: 1rem;
+  --bs-gutter-y: 1rem;
+  margin: 1.25rem 0 2rem;
+}
+.package-card {
+  border: 1px solid #2a2a2a;
+  border-left: 3px solid $primary;
+  border-radius: 6px;
+  padding: 1.1rem 1.25rem 1rem;
+  background: #222;
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+    font-family: $font-family-monospace, "Source Code Pro", Menlo, Monaco, Consolas, monospace;
+    font-size: 1.1rem;
+    color: #f1f1f1;
+  }
+
+  p {
+    margin-bottom: 0.6rem;
+  }
+}
+.pkg-link {
+  font-size: 0.9rem;
+}
+
+// Reports & Pre-Analysis Plans — secondary treatment
+.reports-note {
+  font-size: 0.95rem;
+  color: #aaa;
+  margin: 0.5rem 0 1rem;
+  padding-left: 0.9rem;
+  border-left: 3px solid #2a2a2a;
+  font-style: italic;
+}
+.pub-list.reports-list > ul > li {
+  font-size: 0.95rem;
+  border-left-color: #2a2a2a;
+  margin-bottom: 0.9rem;
+}
+
+// Current-term highlight on Teaching page
+.current-term-card {
+  background: #251c1c;
+  border: 1px solid #3a2a2a;
+  border-left: 4px solid $primary;
+  border-radius: 6px;
+  padding: 1rem 1.25rem 0.6rem;
+  margin: 0.5rem 0 1.5rem;
+
+  p:first-child {
+    margin-bottom: 0.6rem;
+  }
+  ul {
+    margin-bottom: 0.4rem;
+  }
+}
+
+// Home page — hero (two-column), news feed, featured pubs
+.home-hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 0.5rem 0 2rem;
+}
+.home-hero-text {
+  flex: 1 1 360px;
+  max-width: 720px;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+.home-hero-image {
+  flex: 0 0 auto;
+  width: 220px;
+  max-width: 100%;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 14px rgba(0,0,0,0.4);
+  }
+
+  figcaption {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 0.4rem;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .home-hero-image {
+    width: 160px;
+    margin: 0 auto;
+  }
+}
+.home-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 1rem 0 0.5rem;
+
+  .btn {
+    font-size: 0.9rem;
+  }
+}
+
+.home-news {
+  margin: 0.5rem 0 2rem;
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  li {
+    margin-bottom: 0.55rem;
+    line-height: 1.55;
+    padding-left: 6.9em;     // matches .news-date min-width (6.5em) + margin-right (0.4em)
+    text-indent: -6.9em;     // hanging indent: date sits flush-left, wrapped lines align under content
+  }
+}
+.news-date {
+  display: inline-block;
+  min-width: 6.5em;
+  font-size: 0.88rem;
+  font-variant-numeric: tabular-nums;
+  color: #888;
+  margin-right: 0.4rem;
+}
+
+.featured-pubs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 0.5rem 0 2rem;
+}
+.featured-card {
+  border: 1px solid #2a2a2a;
+  border-top: 3px solid $primary;
+  border-radius: 6px;
+  padding: 0.9rem 1rem 0.8rem;
+  background: #222;
+  color: #f0f0f0 !important;
+
+  p,
+  p strong {
+    margin-bottom: 0.45rem;
+    color: #f0f0f0 !important;   // author names + plain prose
+  }
+}
+.featured-venue {
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #999;
+}
+.featured-links {
+  font-size: 0.85rem;
+  color: #aaa;
+
+  a {
+    margin-right: 0.2rem;
+  }
+}
+
+.home-bio-extra {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #333;
+
+  // Match the rest of the dark theme rather than dimming this section.
+  h2, h3 {
+    color: #ffffff !important;
+  }
+
+  p, li, ul, ol {
+    color: #e0e0e0 !important;
+  }
+}
+
+// Research page — Research Areas card grid
+.research-areas {
+  margin: 0.25rem 0 1.5rem;
+}
+.area-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 0.5rem 0 0.5rem;
+
+  @media (max-width: 575px) {
+    grid-template-columns: 1fr;
+  }
+}
+.area-card {
+  border: 1px solid #2a2a2a;
+  border-left: 3px solid $primary;
+  border-radius: 6px;
+  padding: 0.9rem 1rem 0.8rem;
+  background: #222;
+  cursor: pointer;
+  transition: box-shadow 0.15s ease, transform 0.15s ease, border-color 0.15s ease;
+
+  &:hover, &:focus-visible {
+    box-shadow: 0 2px 12px rgba(0,0,0,0.35);
+    transform: translateY(-1px);
+    outline: none;
+  }
+  &.is-active {
+    border-color: $primary;
+    box-shadow: 0 0 0 1px rgba($primary, 0.3);
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    color: #c8c8c8;
+  }
+}
+.area-title {
+  display: block;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #f1f1f1;
+  margin-bottom: 0.3rem;
+}
+.area-link {
+  font-size: 0.85rem;
+  color: $primary;
+  letter-spacing: 0.01em;
+}
+
+// Research page — topic filter bar
+.topic-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1.25rem 0 1.5rem;
+  padding: 0.7rem 0.9rem;
+  background: #1f1f1f;
+  border: 1px solid #2a2a2a;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+.topic-filter-label {
+  font-weight: 600;
+  color: #bbb;
+  margin-right: 0.25rem;
+}
+.topic-filter-chips {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  flex: 1 1 auto;
+}
+.topic-filter-chip {
+  font: inherit;
+  font-size: 0.85rem;
+  line-height: 1.2;
+  padding: 0.18rem 0.6rem;
+  border: 1px solid #3a3a3a;
+  border-radius: 999px;
+  background: #2a2a2a;
+  color: #ddd;
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+
+  &:hover {
+    border-color: $primary;
+    color: #f4baba;
+  }
+  &.is-active {
+    background: $primary;
+    border-color: $primary;
+    color: #fff;
+  }
+  &:focus-visible {
+    outline: 2px solid rgba($primary, 0.45);
+    outline-offset: 1px;
+  }
+}
+.topic-filter-status {
+  font-size: 0.85rem;
+  color: #999;
+  font-variant-numeric: tabular-nums;
+}
+.topic-filter-clear {
+  font: inherit;
+  font-size: 0.85rem;
+  padding: 0.18rem 0.6rem;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: transparent;
+  color: #f4baba;
+  cursor: pointer;
+  visibility: hidden;
+  transition: background 0.12s ease;
+
+  &:hover {
+    background: rgba($primary, 0.18);
+  }
+}
+.topic-filter.has-active .topic-filter-clear {
+  visibility: visible;
+}
+
+// Per-entry topic chips
+.topic-tags {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.35rem;
+}
+.topic-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  padding: 0.12rem 0.5rem;
+  border: 1px solid #333;
+  border-radius: 999px;
+  background: #262626;
+  color: #bbb;
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+  user-select: none;
+
+  &:hover {
+    border-color: $primary;
+    color: #f4baba;
+    background: #2c2222;
+  }
+  &.is-active {
+    background: $primary;
+    border-color: $primary;
+    color: #fff;
+  }
+  &:focus-visible {
+    outline: 2px solid rgba($primary, 0.45);
+    outline-offset: 1px;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Dark-mode legibility overrides for Bootstrap/Cosmo defaults
+// ---------------------------------------------------------------------------
+
+// Outline-secondary buttons (home page CV/GitHub/Scholar/ORCID row).
+// Cosmo dark leaves border + text at #343a40, invisible on a #1a1a1a body.
+.btn-outline-secondary {
+  --bs-btn-color: #d0d0d0;
+  --bs-btn-border-color: #6c6c6c;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #2f2f2f;
+  --bs-btn-hover-border-color: #aaa;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #2f2f2f;
+  --bs-btn-active-border-color: #aaa;
+  --bs-btn-disabled-color: #6c6c6c;
+}
+
+// Inline <code> (e.g. `blockTools` on the home page, package names in
+// software/* pages). Bootstrap hardcodes background-color: #f8f9fa, and
+// Quarto adds `p/li/td code:not(.sourceCode) { background: rgba(233,236,239,.65) }`
+// — both end up as ~white on white in dark mode. We match the same
+// selectors Quarto uses so specificity ties and we win by ordering.
+p code:not(.sourceCode),
+li code:not(.sourceCode),
+td code:not(.sourceCode),
+:not(pre) > code:not(.sourceCode),
+:not(pre) > code.sourceCode {
+  background-color: #2a1f1f !important;
+  color: #f4baba !important;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+}
+// Code inside a link stays in the link palette so it still reads as a hyperlink.
+a > code,
+a:hover > code,
+p a > code:not(.sourceCode),
+li a > code:not(.sourceCode),
+td a > code:not(.sourceCode) {
+  background-color: rgba($primary, 0.22) !important;
+  color: $link-color !important;
+}
+a:hover > code,
+p a:hover > code:not(.sourceCode),
+li a:hover > code:not(.sourceCode),
+td a:hover > code:not(.sourceCode) {
+  color: $link-hover-color !important;
+}
+
+// Software page — package descriptions on dark cards
+.package-card,
+.package-card p {
+  color: #f0f0f0 !important;
+}
+
+// Navbar — brand-colored social icons (dark mode)
+$orcid-green: #A6CE39;
+$mastodon-purple: #8a8bff; // brightened slightly for dark backgrounds
+
+.navbar i.bi-mastodon { color: $mastodon-purple; }
+
+.navbar a[href*="orcid.org"] {
+  .menu-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: -0.15em;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><path fill='%23A6CE39' d='M256 128c0 70.7-57.3 128-128 128S0 198.7 0 128 57.3 0 128 0s128 57.3 128 128z'/><path fill='%23ffffff' d='M86.3 186.2H70.9V79.1h15.4v107.1zM108.9 79.1h41.6c39.6 0 57 28.3 57 53.6 0 27.5-21.5 53.6-56.8 53.6h-41.8V79.1zm15.4 93.3h24.5c34.9 0 42.9-26.5 42.9-39.7C191.7 111.2 178 93 148 93h-23.7v79.4zM88.7 56.8c0 5.5-4.5 10.1-10.1 10.1s-10.1-4.6-10.1-10.1c0-5.6 4.5-10.1 10.1-10.1s10.1 4.6 10.1 10.1z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  &::after, .external-link-icon { display: none !important; }
+}

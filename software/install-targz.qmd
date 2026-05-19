@@ -1,0 +1,41 @@
+---
+title: "Install an R Package from a .tar.gz file"
+pagetitle: "Install an R package from .tar.gz — Ryan T. Moore"
+toc: true
+toc-location: right
+toc-title: "On this page"
+---
+
+## In general
+
+At the R prompt:
+
+```r
+library(blockTools, repos = "blockTools_0.6-2.tar.gz")
+```
+
+In case that doesn't work, follow the platform-specific instructions below.
+
+## On a Mac
+
+1. Make sure you have installed Xcode from the Mac App Store, and installed the command line tools from within Xcode.
+2. Close R.
+3. Download the `.tar.gz` onto the Desktop.
+4. Open the Terminal application.
+5. Enter `R CMD INSTALL Desktop/[pkg.tar.gz]` (without the brackets), where `[pkg.tar.gz]` is the full filename of the tar.gz (such as `blockTools_0.5-7.tar.gz`).
+6. Open R.
+7. At the R prompt:
+
+   ```r
+   library(blockTools)
+   ```
+
+Then check that you have installed the desired version using:
+
+```r
+sessionInfo()
+```
+
+## On a PC
+
+See [the instructions here](https://stat.ethz.ch/pipermail/r-help/2008-August/169599.html).

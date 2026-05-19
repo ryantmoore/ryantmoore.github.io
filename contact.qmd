@@ -1,0 +1,34 @@
+---
+title: "Contact"
+pagetitle: "Ryan T. Moore — Contact"
+toc: false
+---
+
+## Email
+
+[rtm (at) american (dot) edu](mailto:rtm@american.edu)
+
+## GitHub
+
+- [@ryantmoore](https://github.com/ryantmoore) — for academic work and OES
+- [@rtm-dc](https://github.com/rtm-dc) — for The Lab @ DC
+
+## Mastodon
+
+[@ryantmoore@masto.nu](https://masto.nu/@ryantmoore)
+
+## ORCiD
+
+[0000-0002-3916-8113](https://orcid.org/0000-0002-3916-8113)
+
+## Telephone & voicemail
+
++1 202 885 6470
+
+## Office address
+
+Department of Government\
+American University\
+Kerwin Hall, Room 234\
+4400 Massachusetts Avenue NW\
+Washington DC 20016-8130

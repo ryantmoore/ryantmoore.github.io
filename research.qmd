@@ -1,0 +1,462 @@
+---
+title: "Research"
+pagetitle: "Ryan T. Moore — Research"
+toc: true
+toc-depth: 2
+toc-location: right
+toc-title: "On this page"
+---
+
+::: {.research-areas}
+
+## Research Areas
+
+::: {.area-cards}
+
+::: {.area-card data-topics="experimental-design field-experiment causal-inference"}
+[Experimental Design & Causal Inference]{.area-title}
+
+Designing more powerful experiments — blocking algorithms, sequential and field designs, and politically-robust designs — and the causal inference methods that connect them to politics and policy evaluation
+
+[Show related work →]{.area-link}
+:::
+
+::: {.area-card data-topics="social-policy housing-policy public-safety public-health economic-security"}
+[Social & Public Policy]{.area-title}
+
+How social and public policy works, and how it gets made: randomized and observational studies, several with [The Lab @ DC](https://thelab.dc.gov), plus research on public-health access and direct democracy
+
+[Show related work →]{.area-link}
+:::
+
+::: {.area-card data-topics="geolocation political-behavior interest-groups policymaking"}
+[Place, Geography, & Political Behavior]{.area-title}
+
+Political behavior and the contexts that shape it — using fine-grained geographic data to define racial and ethnic context, and studying interest groups, policymaking, direct democracy, and political activity online
+
+[Show related work →]{.area-link}
+:::
+
+::: {.area-card data-topics="r-software pedagogy"}
+[Statistical Software & Pedagogy]{.area-title}
+
+Reproducible computation in social science — R packages for blocking, ecological inference, scraping HTML, and working with LaTeX — and teaching quantitative methods
+
+[Show related work →]{.area-link}
+:::
+
+:::
+
+:::
+
+::: {.topic-filter}
+:::
+
+## Refereed Journal Articles
+
+::: {.pub-list}
+
+- Wilson, Kevin H., Rebecca A. Johnson, Chrysanthi Hatzimasoura, Robert P. Holman, Ryan T. Moore, and David Yokum. [**A Randomized Controlled Trial Evaluating the Effects of Nurse-Led Triage of 911 Calls**]{#ntl-2024 .pub-title}. [*Nature Human Behaviour*]{.pub-venue}, 8:1276–1284, July 2024.
+  [[PDF](/files/papers/24-ntl.pdf) ·
+  [PDF (SharedIt)](https://rdcu.be/dISZm) ·
+  [*Nature* journal page](https://www.nature.com/articles/s41562-024-01889-6) ·
+  [Supplementary Materials](https://osf.io/t7nhj/) ·
+  [Publisher's correction](/files/papers/24-ntl-correction.pdf) · 
+  [Pub correction link](https://www.nature.com/articles/s41562-024-01921-9) · 
+  [Replication code](https://github.com/thelabdc/FEMS-911NurseTriageLine-Public) ·
+  [Project page](https://thelabprojects.dc.gov/911-nurse-triage-line) ·
+  [OSF](https://osf.io/t7nhj/) ·
+  [DOI](https://doi.org/10.1038/s41562-024-01889-6) ·
+  [DOI correction](https://doi.org/10.1038/s41562-024-01921-9)]{.pub-links}
+  [[Field Experiment]{.topic-tag data-topic="field-experiment"} [Causal Inference]{.topic-tag data-topic="causal-inference"} [Public Health]{.topic-tag data-topic="public-health"} [Public Safety]{.topic-tag data-topic="public-safety"}]{.topic-tags}
+
+- Alva, Maria L., Natnaell Mammo, Ryan T. Moore, and Samuel Quinney. [**Do Shallow Rental Subsidies Promote Housing Stability? Evidence on Costs and Effects from DC's Flexible Program**]{.pub-title}. [*Urban Affairs Review*]{.pub-venue}, 59(5):1530–1566, 2023.
+  [[PDF](/files/papers/23-dcflex.pdf) ·
+  [Sage Journals page](https://doi.org/10.1177%2F10780874221111140) ·
+  [Supplementary appendix (.docx)](https://journals.sagepub.com/doi/suppl/10.1177/10780874221111140/suppl_file/sj-docx-1-uar-10.1177_10780874221111140.docx) ·
+  [Supplementary appendix (PDF)](/files/papers/22_flex_supp01.pdf) ·
+  [UAR blog post](https://www.urbanaffairsreview.com/uar-archive/do-shallow-rental-subsidies-promote-housing-stability)]{.pub-links}
+  [[Field Experiment]{.topic-tag data-topic="field-experiment"} [Causal Inference]{.topic-tag data-topic="causal-inference"} [Housing Policy]{.topic-tag data-topic="housing-policy"} [Social Policy]{.topic-tag data-topic="social-policy"}]{.topic-tags}
+
+- Moore, Ryan T., Katherine N. Gan, Karissa Minnich, and David Yokum. [**Anchor Management: A Field Experiment to Encourage Families to Meet Critical Programme Deadlines**]{#anchor-2022 .pub-title}. [*Journal of Public Policy*]{.pub-venue}, 42(4):615–636, 2022.
+  [[PDF](/files/papers/22_tanf_recert.pdf) ·
+  [Cambridge Journals page](https://www.cambridge.org/core/journals/journal-of-public-policy/article/abs/anchor-management-a-field-experiment-to-encourage-families-to-meet-critical-programme-deadlines/A74D5BF7AF8107861E24D9A420CC026C) ·
+  [Supplementary materials](https://www.cambridge.org/core/journals/journal-of-public-policy/article/abs/anchor-management-a-field-experiment-to-encourage-families-to-meet-critical-programme-deadlines/A74D5BF7AF8107861E24D9A420CC026C#supplementary-materials) ·
+  [Appendix 1](/files/papers/22_tanf_supp01.pdf) ·
+  [Appendix 2](/files/papers/22_tanf_supp02.pdf) ·
+  [Replication data (GitHub)](https://github.com/thelabdc/DHS-TANFRecertification-Public) ·
+  [Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/5WTSUZ) ·
+  [Cambridge Core blog post](https://www.cambridge.org/core/blog/2022/10/31/anchor-management-a-field-experiment-to-encourage-families-to-meet-critical-program-deadlines/) ·
+  [DOI](https://doi.org/10.1017/S0143814X21000131)]{.pub-links}
+  [[Field Experiment]{.topic-tag data-topic="field-experiment"} [Causal Inference]{.topic-tag data-topic="causal-inference"} [Social Policy]{.topic-tag data-topic="social-policy"} [Economic Security]{.topic-tag data-topic="economic-security"}]{.topic-tags}
+
+- Moore, Ryan T. and Andrew Reeves. [**Defining Racial and Ethnic Context with Geolocation Data**]{.pub-title}. [*Political Science Research and Methods*]{.pub-venue}, 8(4):780–794, October 2020.
+  [[PDF](/files/papers/milieus.pdf) ·
+  [Cambridge Core Share PDF](https://www.cambridge.org/core/journals/political-science-research-and-methods/article/defining-racial-and-ethnic-context-with-geolocation-data/F8F92B9DCF6723B8F395655DA12BA8D9/share/284e77ba90f86ebd028db2cded8c8d1976a8fe67) ·
+  [Cambridge Journals page](https://www.cambridge.org/core/journals/political-science-research-and-methods/article/defining-racial-and-ethnic-context-with-geolocation-data/F8F92B9DCF6723B8F395655DA12BA8D9) ·
+  [Supplementary appendix](/files/papers/milieus_appendix.pdf) ·
+  [Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/G3YJXY)]{.pub-links}
+  [[Geolocation & Place]{.topic-tag data-topic="geolocation"}]{.topic-tags}
+
+- Wirth, Kurt, Ericka Menchen-Trevino, and Ryan T. Moore. [**Bots By Topic: Exploring Differences in Bot Activity by Conversation Topic**]{.pub-title}. In [*Proceedings of the 10th International Conference on Social Media and Society*]{.pub-venue}, pages 77–82, 2019.
+  [[PDF](/files/papers/topic-bots.pdf) ·
+  [ACM page](https://dl.acm.org/doi/10.1145/3328529.3328547)]{.pub-links}
+  [[Political Behavior]{.topic-tag data-topic="political-behavior"} [R / Software]{.topic-tag data-topic="r-software"}]{.topic-tags}
+
+- Shenson, Douglas, Ryan T. Moore, William Benson, and Lynda A. Anderson. [**Polling Places, Pharmacies, and Public Health: Vote & Vax 2012**]{.pub-title}. [*American Journal of Public Health*]{.pub-venue}, 105(6):e12–e15, 2015.
+  [[PDF](/files/papers/vvField.pdf) ·
+  [APHA Journal page](https://ajph.aphapublications.org/doi/abs/10.2105/AJPH.2015.302628) ·
+  [JAMA coverage](http://jama.jamanetwork.com/article.aspx?articleid=2279707)]{.pub-links}
+  [[Public Health]{.topic-tag data-topic="public-health"} [Geolocation & Place]{.topic-tag data-topic="geolocation"} [Political Behavior]{.topic-tag data-topic="political-behavior"}]{.topic-tags}
+
+- Moore, Ryan T. [**Overcoming Barriers to Heterogeneous-Group Learning in the Political Science Classroom**]{.pub-title}. [*PS: Political Science & Politics*]{.pub-venue}, 48(1):149–156, 2015.
+  [[PDF](/files/papers/hetgr2.pdf) ·
+  [Cambridge Journals page](https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/overcoming-barriers-to-heterogeneousgroup-learning-in-the-political-science-classroom/CF8CAF88D8B5841E289A981C078E725D) ·
+  [Dataverse](http://dx.doi.org/10.7910/DVN/26685)]{.pub-links}
+  [[Pedagogy]{.topic-tag data-topic="pedagogy"} [R / Software]{.topic-tag data-topic="r-software"}]{.topic-tags}
+
+- Moore, Ryan T. and Sally A. Moore. [**Blocking for Sequential Political Experiments**]{.pub-title}. [*Political Analysis*]{.pub-venue}, 21(4):507–523, 2013.
+  [[PDF](/files/papers/bflyPA.pdf) ·
+  [Cambridge Journals page](https://www.cambridge.org/core/journals/political-analysis/article/blocking-for-sequential-political-experiments/F1441C1FA0D095FC12E1EE8E8F4DC7EA) ·
+  [Supplementary appendix](/files/papers/bflySuppPA.pdf) ·
+  [Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/21042)]{.pub-links}
+  [[Causal Inference]{.topic-tag data-topic="causal-inference"} [Experimental Design]{.topic-tag data-topic="experimental-design"} [R / Software]{.topic-tag data-topic="r-software"}]{.topic-tags}
+
+- Moore, Ryan T., Eleanor Neff Powell, and Andrew Reeves. [**Driving Support: Workers, PACs, and Congressional Support of the Auto Industry**]{.pub-title}. [*Business and Politics*]{.pub-venue}, 15(2):137–162, 2013.
+  [[PDF](/files/papers/driving.pdf) ·
+  [Cambridge Journals page](https://www.cambridge.org/core/journals/business-and-politics/article/abs/driving-support-workers-pacs-and-congressional-support-of-the-auto-industry1/4DB67EEB0B7D1CCE618CF9288F844B11) ·
+  [Supplementary appendix](/files/papers/autoSuppBAP.pdf) ·
+  [Dataverse](http://j.mp/1dW8ErX)]{.pub-links}
+  [[Political Behavior]{.topic-tag data-topic="political-behavior"} [Geolocation & Place]{.topic-tag data-topic="geolocation"} [Interest Groups]{.topic-tag data-topic="interest-groups"} [Policymaking]{.topic-tag data-topic="policymaking"}]{.topic-tags}
+
+- Moore, Ryan T. [**Multivariate Continuous Blocking to Improve Political Science Experiments**]{#block-2012 .pub-title}. [*Political Analysis*]{.pub-venue}, 20(4):460–479, 2012.
+  [[PDF](/files/papers/blockPA.pdf) ·
+  [Cambridge Journals page](https://www.cambridge.org/core/journals/political-analysis/article/multivariate-continuous-blocking-to-improve-political-science-experiments/7C16390FBACFB15FDD1A7536042CE222) ·
+  [Supplementary appendix](/files/papers/blockSupp.pdf) ·
+  [Dataverse](http://dvn.iq.harvard.edu/dvn/dv/rmoore)]{.pub-links}
+  [[Causal Inference]{.topic-tag data-topic="causal-inference"} [Experimental Design]{.topic-tag data-topic="experimental-design"} [R / Software]{.topic-tag data-topic="r-software"}]{.topic-tags}
+
+- Moore, Ryan T. and Christopher T. Giovinazzo. [**The Distortion Gap: Policymaking Under Federalism and Interest Group Capture**]{.pub-title}. [*Publius: The Journal of Federalism*]{.pub-venue}, 42(2):189–210, 2012.
+  [[PDF](/files/papers/distortiongap.pdf) ·
+  [Oxford Journals page](https://academic.oup.com/publius/article-abstract/42/2/189/1892332) ·
+  [Supplementary appendix](/files/papers/distortiongapSupp.pdf)]{.pub-links}
+  [[Interest Groups]{.topic-tag data-topic="interest-groups"} [Policymaking]{.topic-tag data-topic="policymaking"} [Geolocation & Place]{.topic-tag data-topic="geolocation"}]{.topic-tags}
+
+- Moore, Ryan T. and Nirmala Ravishankar. [**Who Loses in Direct Democracy?**]{.pub-title}. [*Social Science Research*]{.pub-venue}, 41(3):646–656, May 2012.
+  [[PDF](/files/papers/wlidd.pdf) ·
+  [Supplementary materials](/files/papers/wlidd-suppl.pdf) ·
+  [Science Direct page](http://www.sciencedirect.com/science/article/pii/S0049089X11001724) ·
+  [Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/21358&studyListingIndex=0_bb5c7d38fba4312a61c0b8c74d87)]{.pub-links}
+  [[Political Behavior]{.topic-tag data-topic="political-behavior"} [Social Policy]{.topic-tag data-topic="social-policy"} [Policymaking]{.topic-tag data-topic="policymaking"}]{.topic-tags}
+
+- Moore, Ryan T. and Andrew Reeves. [**The Job Market's First Steps: Using Research Tools to Simplify the Process**]{.pub-title}. [*PS: Political Science & Politics*]{.pub-venue}, 44(2):385–391, April 2011.
+  [[PDF](/files/papers/tjmfs.pdf) ·
+  [`muRL` software page](http://ryantmoore.com/software.muRL.htm)]{.pub-links}
+  [[Pedagogy]{.topic-tag data-topic="pedagogy"} [R / Software]{.topic-tag data-topic="r-software"}]{.topic-tags}
+
+- King, Gary, Emmanuela Gakidou, Kosuke Imai, Jason Lakin, Ryan T. Moore, Clayton Nall, Nirmala Ravishankar, Manett Vargas, Martha María Téllez-Rojo, Juan Eugenio Hernández Ávila, Mauricio Hernández Ávila, and Héctor Hernández Llamas. [**Public Policy for the Poor? A Randomised Assessment of the Mexican Universal Health Insurance Programme**]{.pub-title}. [*The Lancet*]{.pub-venue}, 373(9673):1447–54, 25 April 2009.
+  [[PDF](/files/papers/SPeval.pdf) ·
+  [Dataverse](http://dvn.iq.harvard.edu/dvn/dv/rmoore)]{.pub-links}
+  [[Field Experiment]{.topic-tag data-topic="field-experiment"} [Causal Inference]{.topic-tag data-topic="causal-inference"} [Public Health]{.topic-tag data-topic="public-health"} [Social Policy]{.topic-tag data-topic="social-policy"}]{.topic-tags}
+
+- Dalton, W. Brian, Mandayam O. Nandan, Ryan T. Moore, and Vincent W. Yang. [**Human Cancer Cells Commonly Acquire DNA Damage During Mitotic Arrest**]{.pub-title}. [*Cancer Research*]{.pub-venue}, 67(24):11487–11492, 15 December 2007.
+  [[PDF](/files/papers/crDec07.pdf)]{.pub-links}
+
+- Lau, Olivia, Ryan T. Moore, and Michael Kellermann. [**eiPack: R x C Ecological Inference and Higher-Dimension Data Management**]{.pub-title}. [*R Journal*]{.pub-venue}, 7(2):43–47, 2007.
+  [[PDF](/files/papers/eiPackArt.pdf)]{.pub-links}
+  [[Geolocation & Place]{.topic-tag data-topic="geolocation"} [R / Software]{.topic-tag data-topic="r-software"}]{.topic-tags}
+
+- King, Gary, Emmanuela Gakidou, Nirmala Ravishankar, Ryan T. Moore, Jason Lakin, Manett Vargas, Martha María Téllez-Rojo, Juan Eugenio Hernández Ávila, Mauricio Hernández Ávila, and Héctor Hernández Llamas. [**A 'Politically Robust' Experimental Design for Public Policy Evaluation, with Application to the Mexican Universal Health Insurance Program**]{.pub-title}. [*Journal of Policy Analysis and Management*]{.pub-venue}, 26(3):479–509, 2007.
+  [[PDF](/files/papers/SPdesign.pdf)]{.pub-links}
+  [[Field Experiment]{.topic-tag data-topic="field-experiment"} [Causal Inference]{.topic-tag data-topic="causal-inference"} [Experimental Design]{.topic-tag data-topic="experimental-design"} [Public Health]{.topic-tag data-topic="public-health"} [Social Policy]{.topic-tag data-topic="social-policy"}]{.topic-tags}
+
+:::
+
+## Book Chapters
+
+::: {.pub-list}
+
+- Moore, Ryan T. and Andrew Reeves. [**Learning from Place in the Era of Geolocation**]{.pub-title}. In Jennifer Bachner, Kathryn Wagner Hill, and Benjamin Ginsberg, editors, [*Analytics, Policy, and Governance*]{.pub-venue}, pages 118–136. Yale University Press, 2017.
+  [[Book](https://yalebooks.yale.edu/book/9780300208399/analytics-policy-and-governance) ·
+  [Chapter PDF](/files/papers/learning-from-place.pdf)]{.pub-links}
+  [[Geolocation & Place]{.topic-tag data-topic="geolocation"}]{.topic-tags}
+
+:::
+
+## Invited Contributions and Other Publications
+
+::: {.pub-list}
+
+- Montgomery, Jacob and Ryan T. Moore. [**Building and Maintaining R Packages with devtools and roxygen2**]{.pub-title}. [*The Political Methodologist*]{.pub-venue}, 22(1):26–31, 2014.
+  [[PDF](/files/papers/tpmPackages.pdf) ·
+  [Blog post](http://thepoliticalmethodologist.com/2014/08/14/building-and-maintaining-r-packages-with-devtools-and-roxygen2/)]{.pub-links}
+  [[R / Software]{.topic-tag data-topic="r-software"} [Pedagogy]{.topic-tag data-topic="pedagogy"}]{.topic-tags}
+
+- Moore, Ryan T. [**Blocking Political Science Experiments: Why, How, and Then What?**]{.pub-title}. [*The Experimental Political Scientist*]{.pub-venue}, 1(1):3–5, 2010.
+  [[PDF](/files/papers/blockNews10.pdf)]{.pub-links}
+  [[Causal Inference]{.topic-tag data-topic="causal-inference"} [Experimental Design]{.topic-tag data-topic="experimental-design"} [Pedagogy]{.topic-tag data-topic="pedagogy"}]{.topic-tags}
+
+- Moore, Ryan T. [**Review of *Essential Mathematics for Political and Social Research*, by Jeff Gill**]{.pub-title}. [*The Political Methodologist*]{.pub-venue}, 14(2):16–18, 2006.
+  [[PDF](/files/papers/empsr.pdf)]{.pub-links}
+  [[Pedagogy]{.topic-tag data-topic="pedagogy"}]{.topic-tags}
+
+:::
+
+## Reports & Pre-Analysis Plans
+
+::: {.reports-note}
+Selected applied-policy reports and pre-registered study designs, mostly from work with [The Lab @ DC](https://thelab.dc.gov) and partners.
+:::
+
+::: {.pub-list .reports-list}
+
+- Huberts, Alyssa, Ryan Flynn, Ryan T. Moore, Jack Crum, Hersh Gupta, and Sam Quinney. [**Can a Predictive Model Help Target Fire Prevention Efforts?**]{.pub-title} Evaluation Report, [The Lab @ DC]{.pub-venue}, October 2025. [[Link](https://t.ly/ljtcY)]{.pub-links}
+  [[Field Experiment]{.topic-tag data-topic="field-experiment"} [Causal Inference]{.topic-tag data-topic="causal-inference"} [Public Safety]{.topic-tag data-topic="public-safety"}]{.topic-tags}
+
+- Crum, Jack, Ryan Flynn, Katie Gan, Hersh Gupta, Alyssa Huberts, Ryan T. Moore, and Sam Quinney. [**Can fire safety inspections guided by a risk model improve fire safety? Pre-Analysis Plan**]{.pub-title}. [Open Science Framework]{.pub-venue}, October 2024. [[OSF](https://osf.io/xkbvu)]{.pub-links}
+  [[Field Experiment]{.topic-tag data-topic="field-experiment"} [Causal Inference]{.topic-tag data-topic="causal-inference"} [Public Safety]{.topic-tag data-topic="public-safety"}]{.topic-tags}
+
+- Hecht, Amelie, Rebecca Johnson, Anamita Gall, Katie Gan, and Ryan T. Moore. [**Can a Paid Internship Program Improve High School Students' Success? A Pre-Analysis Plan**]{.pub-title}. [Open Science Framework]{.pub-venue}, November 2023 (updated November 2025). [[OSF](https://osf.io/t5zvx)]{.pub-links}
+  [[Causal Inference]{.topic-tag data-topic="causal-inference"} [Social Policy]{.topic-tag data-topic="social-policy"} [Economic Security]{.topic-tag data-topic="economic-security"}]{.topic-tags}
+
+- Dignazio, Nathan, Ryan T. Moore, Katie O'Connell, and Sam Quinney. [**Pre-Analysis Plan Addendum: Flexible Rent Subsidy Pilot, Part 2: Program**]{.pub-title}. [Open Science Framework]{.pub-venue}, March 2023.
+  [[Field Experiment]{.topic-tag data-topic="field-experiment"} [Causal Inference]{.topic-tag data-topic="causal-inference"} [Housing Policy]{.topic-tag data-topic="housing-policy"}]{.topic-tags}
+
+- Ravishankar, Anita, Ryan T. Moore, and Kevin H. Wilson. [**Pre-Analysis Plan: Policing in Historical and Cultural Context — Measuring Attitudinal Change with a Multi-wave Survey**]{.pub-title}. [Open Science Framework]{.pub-venue}, May 2021. [[OSF](https://osf.io/bk27q)]{.pub-links}
+  [[Field Experiment]{.topic-tag data-topic="field-experiment"} [Causal Inference]{.topic-tag data-topic="causal-inference"} [Public Safety]{.topic-tag data-topic="public-safety"}]{.topic-tags}
+
+- Leopold, Josh, Mychal Cohen, Kassie Scott, Maria Alva, Natnaell Mammo, Namita Mody, Ryan T. Moore, and Sam Quinney. [**DC Flexible Rent Subsidy Program: Findings from the Program's First Year**]{.pub-title}. Research Report, [Urban Institute and The Lab @ DC]{.pub-venue}, October 2020. [[PDF](https://www.huduser.gov/portal/sites/default/files/pdf/DC-Flexible-Rent-2020.pdf)]{.pub-links}
+  [[Field Experiment]{.topic-tag data-topic="field-experiment"} [Causal Inference]{.topic-tag data-topic="causal-inference"} [Housing Policy]{.topic-tag data-topic="housing-policy"} [Social Policy]{.topic-tag data-topic="social-policy"}]{.topic-tags}
+
+- Quinney, Sam, Namita Mody, Ryan T. Moore, Natnaell Mammo, and Hersh Gupta. [**Pre-Analysis Plan: Flexible Rent Subsidy Pilot, Part 2: Program**]{.pub-title}. [Open Science Framework]{.pub-venue}, January 2020. [[OSF](https://osf.io/e3c2z/)]{.pub-links}
+  [[Field Experiment]{.topic-tag data-topic="field-experiment"} [Causal Inference]{.topic-tag data-topic="causal-inference"} [Housing Policy]{.topic-tag data-topic="housing-policy"} [Experimental Design]{.topic-tag data-topic="experimental-design"}]{.topic-tags}
+
+- Gan, Katherine N., Karissa Minnich, Vicky Mei, Namita Mody, and Ryan T. Moore. [**Coaching DC's TANF Customers Towards Economic Security**]{.pub-title}. [Open Science Framework]{.pub-venue}, May 2019. [[OSF](https://osf.io/gtc2z)]{.pub-links}
+  [[Social Policy]{.topic-tag data-topic="social-policy"} [Economic Security]{.topic-tag data-topic="economic-security"}]{.topic-tags}
+
+- Gan, Katherine, Karissa Minnich, Ryan T. Moore, and David Yokum. [**Pre-Analysis Plan: A Randomized Controlled Trial to Evaluate Whether Behaviorally-Designed Reminder Letters Increase TANF Recertification**]{.pub-title}. [Open Science Framework]{.pub-venue}, November 2017. [[OSF](https://osf.io/dsh3q)]{.pub-links}
+  [[Field Experiment]{.topic-tag data-topic="field-experiment"} [Causal Inference]{.topic-tag data-topic="causal-inference"} [Experimental Design]{.topic-tag data-topic="experimental-design"} [Social Policy]{.topic-tag data-topic="social-policy"} [Economic Security]{.topic-tag data-topic="economic-security"}]{.topic-tags}
+
+:::
+
+```{=html}
+<script>
+(function(){
+  function init(){
+    const lists = document.querySelectorAll('.pub-list');
+    if (!lists.length) return;
+    const filterContainer = document.querySelector('.topic-filter');
+    if (!filterContainer) return;
+
+    // Discover topic vocabulary from per-entry tags
+    const vocab = {};
+    document.querySelectorAll('.pub-list .topic-tag').forEach(t => {
+      const slug = t.dataset.topic;
+      if (!slug) return;
+      vocab[slug] = (t.textContent || '').trim();
+    });
+
+    // Build the filter bar
+    filterContainer.innerHTML = '';
+    const label = document.createElement('span');
+    label.className = 'topic-filter-label';
+    label.textContent = 'Filter by topic:';
+    filterContainer.appendChild(label);
+
+    const chipsRow = document.createElement('span');
+    chipsRow.className = 'topic-filter-chips';
+    Object.keys(vocab)
+      .sort((a,b) => vocab[a].localeCompare(vocab[b]))
+      .forEach(slug => {
+        const chip = document.createElement('button');
+        chip.type = 'button';
+        chip.className = 'topic-filter-chip';
+        chip.dataset.topic = slug;
+        chip.textContent = vocab[slug];
+        chip.addEventListener('click', () => toggleTopic(slug));
+        chipsRow.appendChild(chip);
+      });
+    filterContainer.appendChild(chipsRow);
+
+    const status = document.createElement('span');
+    status.className = 'topic-filter-status';
+    filterContainer.appendChild(status);
+
+    const clearBtn = document.createElement('button');
+    clearBtn.type = 'button';
+    clearBtn.className = 'topic-filter-clear';
+    clearBtn.textContent = 'Clear';
+    clearBtn.addEventListener('click', () => setActive([]));
+    filterContainer.appendChild(clearBtn);
+
+    // Click handlers on per-entry chips
+    document.querySelectorAll('.pub-list .topic-tag').forEach(t => {
+      t.setAttribute('role', 'button');
+      t.setAttribute('tabindex', '0');
+      t.addEventListener('click', () => toggleTopic(t.dataset.topic));
+      t.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          toggleTopic(t.dataset.topic);
+        }
+      });
+    });
+
+    // Click handlers on Research Areas cards
+    document.querySelectorAll('.area-card').forEach(card => {
+      const topics = (card.dataset.topics || '').split(/\s+/).filter(Boolean);
+      if (!topics.length) return;
+      card.setAttribute('role', 'button');
+      card.setAttribute('tabindex', '0');
+      const handler = () => {
+        setActive(topics);
+        filterContainer.scrollIntoView({behavior: 'smooth', block: 'start'});
+      };
+      card.addEventListener('click', handler);
+      card.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          handler();
+        }
+      });
+    });
+
+    let active = [];
+
+    function toggleTopic(slug){
+      if (!slug) return;
+      active = active.includes(slug)
+        ? active.filter(s => s !== slug)
+        : [...active, slug];
+      apply();
+      syncURL();
+    }
+    function setActive(arr){
+      active = (arr || []).filter(s => vocab[s]);
+      apply();
+      syncURL();
+    }
+    function apply(){
+      // Chip visual state
+      filterContainer.querySelectorAll('.topic-filter-chip').forEach(c => {
+        c.classList.toggle('is-active', active.includes(c.dataset.topic));
+      });
+      document.querySelectorAll('.topic-tag').forEach(t => {
+        t.classList.toggle('is-active', active.includes(t.dataset.topic));
+      });
+      // Card highlight
+      document.querySelectorAll('.area-card').forEach(card => {
+        const topics = (card.dataset.topics || '').split(/\s+/).filter(Boolean);
+        const allMatch = topics.length && topics.every(t => active.includes(t));
+        card.classList.toggle('is-active', !!allMatch);
+      });
+
+      // Filter entries
+      let shown = 0, total = 0;
+      lists.forEach(list => {
+        const items = list.querySelectorAll(':scope > ul > li, :scope li');
+        // Avoid double-counting nested li by selecting only direct list items
+        const directItems = list.querySelectorAll(':scope > ul > li');
+        const targetItems = directItems.length ? directItems : items;
+        targetItems.forEach(li => {
+          total++;
+          const tags = Array.from(li.querySelectorAll('.topic-tag'))
+            .map(t => t.dataset.topic);
+          const match = active.length === 0 || active.some(a => tags.includes(a));
+          li.style.display = match ? '' : 'none';
+          if (match) shown++;
+        });
+      });
+
+      // Hide empty section headings (h2/h3) when their list has no visible items
+      document.querySelectorAll('h2, h3').forEach(h => {
+        let next = h.nextElementSibling;
+        while (next && next.tagName !== 'H2' && next.tagName !== 'H3') {
+          if (next.classList && (next.classList.contains('pub-list') || next.querySelector?.('.pub-list'))) {
+            const targetList = next.classList.contains('pub-list')
+              ? next
+              : next.querySelector('.pub-list');
+            const directItems = targetList.querySelectorAll(':scope > ul > li');
+            const visible = Array.from(directItems).filter(li => li.style.display !== 'none').length;
+            const empty = active.length > 0 && directItems.length > 0 && visible === 0;
+            h.style.display = empty ? 'none' : '';
+            // Also hide reports-note when reports list is empty
+            const note = h.parentElement?.querySelector('.reports-note');
+            if (note && note.parentElement === h.parentElement) {
+              note.style.display = empty ? 'none' : '';
+            }
+            return;
+          }
+          next = next.nextElementSibling;
+        }
+      });
+
+      if (active.length === 0) {
+        status.textContent = '';
+        filterContainer.classList.remove('has-active');
+      } else {
+        status.textContent = 'Showing ' + shown + ' of ' + total;
+        filterContainer.classList.add('has-active');
+      }
+    }
+    function syncURL(){
+      const url = new URL(window.location);
+      if (active.length === 0) {
+        url.searchParams.delete('topic');
+      } else {
+        url.searchParams.set('topic', active.join(','));
+      }
+      window.history.replaceState({}, '', url);
+    }
+    function readURL(){
+      const url = new URL(window.location);
+      const param = url.searchParams.get('topic');
+      if (param) {
+        setActive(param.split(',').map(s => s.trim()));
+      }
+    }
+
+    readURL();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
+
+<script>
+// Deep-link handler: Quarto sets body padding-top inside DOMContentLoaded,
+// which shifts layout *after* the browser's initial fragment scroll. For
+// inline span anchors (vs heading sections), Quarto's :target offset rule
+// doesn't apply, so the target ends up hidden under the navbar. Re-scroll
+// ourselves after layout settles, and flash the surrounding entry.
+(function(){
+  function navHeight(){
+    const h = document.querySelector('header.fixed-top');
+    return h ? h.offsetHeight : 60;
+  }
+  function focusHashTarget(){
+    if (!location.hash) return;
+    const id = decodeURIComponent(location.hash.slice(1));
+    const el = document.getElementById(id);
+    if (!el) return;
+    // Wait two frames: one for Quarto's body padding-top to apply,
+    // one for the browser to settle layout.
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      const rect = el.getBoundingClientRect();
+      const top = rect.top + window.pageYOffset - navHeight() - 16;
+      window.scrollTo({ top: Math.max(0, top), behavior: 'auto' });
+      const flashTarget = el.closest('.pub-list > ul > li') || el;
+      flashTarget.classList.remove('pub-target-flash'); // restart animation
+      void flashTarget.offsetWidth;
+      flashTarget.classList.add('pub-target-flash');
+    }));
+  }
+  window.addEventListener('load', focusHashTarget);
+  window.addEventListener('hashchange', focusHashTarget);
+})();
+</script>
+```

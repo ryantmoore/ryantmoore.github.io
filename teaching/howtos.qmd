@@ -1,0 +1,40 @@
+---
+title: "Helpful How-To's"
+pagetitle: "Helpful how-to guides — Ryan T. Moore"
+toc: true
+toc-location: right
+toc-title: "On this page"
+---
+
+Some short guides on R, LaTeX, GitHub, and computing tools that come up in political research.
+
+## Git and GitHub
+
+- Use git with GitHub from the command line. [PDF](/files/ht/htGitCommand.pdf)
+- Get started on GitHub. [PDF](/files/ht/htStartGit.pdf)
+- Maintain an R package in GitHub. [PDF](/files/ht/htgit.pdf)
+
+## R
+
+- Get started with R. [PDF](/files/ht/htr.pdf)
+- Estimate many similar models and plot the coefficients. [PDF](/files/ht/htSimilarModels.pdf)
+- Install an R package from a `.tar.gz` file. [PDF](/files/ht/htrtargz.pdf)
+- Send an email using R. [PDF](/files/ht/htremail.pdf)
+- Use R and LaTeX to write bulk letters (and scrape APSA eJobs HTML for data!): [muRL](../software/murl.qmd).
+
+## LaTeX
+
+- Get started with LaTeX. [PDF](/files/ht/httex.pdf)
+- Install and use [`tinytex`](/files/ht/httinytex.pdf) for converting `.Rmd` files to `.pdf` (without a full TeX download).
+- Sample [`.tex`](/files/ht/sampleFrames.tex) and compiled [`.pdf`](/files/ht/sampleFrames.pdf) files for slides in LaTeX (Beamer).
+- Include or omit solutions from a LaTeX problem set or exam. [PDF](/files/ht/htpssols.pdf)
+- Insert BibTeX entries into a CV, syllabus, etc. [PDF](/files/ht/htbibcvsyl.pdf)
+- (Usually) solve pdfLaTeX's `name{Hfootnote.XX}` error. [PDF](/files/ht/htErrorHfoot.pdf)
+- Speed up your LaTeX typesetting. [PDF](/files/ht/htfasttex.pdf)
+
+## Geographic data and DC
+
+- [Obtain US Census data for Washington, DC tracts in R.](/files/ht/get_dc_tract_data.html)
+- Place points within geographic boundaries using R's `point.in.polygon()` function, by Alyssa Savo (AU 2019). [PDF](/files/ht/htpoint-in-polygon-savo.pdf)
+- Use the `ggmap` package to plot points within Washington, DC, by Tess Harkin (AU 2019). [PDF](/files/ht/htggmap.pdf)
+- Use the MAR Geocoder to obtain geographic data about Washington, DC addresses, by Eric Brower (AU MPA 2019). [PDF](/files/ht/MAR-Geocoder-Guide.pdf)

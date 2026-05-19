@@ -1,0 +1,19 @@
+---
+title: "Advice for Recommendations"
+pagetitle: "Advice for Recommendations — Ryan T. Moore"
+toc: false
+---
+
+If you would like me to write you a letter of recommendation:
+
+- Read and follow [Gary King's advice](https://gking.harvard.edu/recs).
+- Give me as much advance notice before the recommendation due date as possible.
+- If you would like me to send letters directly to several destinations, please create a spreadsheet of the destinations (schools you are applying to, e.g.) with the following structure, including the exact column names below:
+
+| institution | instShort | deadline | title | fname | lname | dept | position | subfield | address1 | address2 (etc.) | city | state | zip |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| the University of My State | UMS | 2019-12-05 | Dr. | Richard | Sanders | Department of Political Science | Ph.D. program | political science | Graduate Admissions Committee | 123 Hello Way | Frederick | MD | 21701 |
+| State University College | State UC | 2019-12-06 | Prof. | Frank | Bonner | Political Science Department | master's program | public policy | Graduate Admissions Committee | 348 LB Lane | Peoria | IL | 63112 |
+
+- If there is no specific person to send the letter to, use `Admissions` as the title and `Committee` as the last name.
+- If the ZIP code begins with a zero (e.g., 02138), omit the leading zero (e.g., 2138).

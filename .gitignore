@@ -1,0 +1,25 @@
+# Quarto build output
+/_site/
+/.quarto/
+/site_libs/
+/*.html
+/*_files/
+*.html.bak
+
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+**/*.quarto_ipynb
+.positai
