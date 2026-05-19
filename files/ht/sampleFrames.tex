@@ -1,0 +1,70 @@
+\documentclass[xcolor=dvipsnames]{beamer}
+\usepackage{pgfpages}
+\usecolortheme[named=NavyBlue]{structure}
+\usefonttheme{serif}
+\setbeameroption{hide notes}
+
+% \includeonlyframes{c1,c2,c3,c4,c5,c6,c7,c8,c9}
+\usepackage{dcolumn}
+\newcolumntype{.}{D{.}{.}{-1}}
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+% \usepackage{wcolor}
+\usepackage{color}
+% \usepackage[usenames]{color}
+\usepackage{wasysym}
+\usepackage{graphicx} % psfrag,epsf}
+% \usepackage{epsfig}
+% math serif font
+\usepackage{mathptmx}
+% \usepackage{amsfonts}
+% \usepackage{amsmath}
+% === to strikeout text ===
+
+\usetheme{Madrid} 
+% Enable appendix frames not to be in displayed frame denominator
+\newcounter{mylastframe}
+
+\title{Title under Title page}
+\author[Authors 1/2]{Author 1 \and Author 2}
+% \thanks{With special thanks to .}}
+\institute[My University]{My University}
+\date{\today}
+\begin{document}
+
+\begin{frame}
+\title{Real Title}
+  \titlepage
+\end{frame}
+
+\author{My Name}
+\institute{My Uni}
+\title{Title under Body frames}
+
+\section{Introduction}
+
+\frame{
+\frametitle{Sample Slide}
+\framesubtitle{}
+
+}
+
+\frame{
+\setcounter{mylastframe}{\value{framenumber}}
+\frametitle{Last Numbered Frame}
+\framesubtitle{}
+
+}
+
+\section{Extra Frames}
+
+\frame{
+\frametitle{Extra Frame, Unnumbered}
+
+
+
+}
+
+% All appendix frame numbers are ``lastframe''
+\setcounter{framenumber}{\value{mylastframe}}
+
+\end{document}

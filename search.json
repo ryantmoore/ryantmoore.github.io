@@ -1,0 +1,513 @@
+[
+  {
+    "objectID": "teaching/howtos.html",
+    "href": "teaching/howtos.html",
+    "title": "Helpful How-To’s",
+    "section": "",
+    "text": "Some short guides on R, LaTeX, GitHub, and computing tools that come up in political research."
+  },
+  {
+    "objectID": "teaching/howtos.html#git-and-github",
+    "href": "teaching/howtos.html#git-and-github",
+    "title": "Helpful How-To’s",
+    "section": "Git and GitHub",
+    "text": "Git and GitHub\n\nUse git with GitHub from the command line. PDF\nGet started on GitHub. PDF\nMaintain an R package in GitHub. PDF"
+  },
+  {
+    "objectID": "teaching/howtos.html#r",
+    "href": "teaching/howtos.html#r",
+    "title": "Helpful How-To’s",
+    "section": "R",
+    "text": "R\n\nGet started with R. PDF\nEstimate many similar models and plot the coefficients. PDF\nInstall an R package from a .tar.gz file. PDF\nSend an email using R. PDF\nUse R and LaTeX to write bulk letters (and scrape APSA eJobs HTML for data!): muRL."
+  },
+  {
+    "objectID": "teaching/howtos.html#latex",
+    "href": "teaching/howtos.html#latex",
+    "title": "Helpful How-To’s",
+    "section": "LaTeX",
+    "text": "LaTeX\n\nGet started with LaTeX. PDF\nInstall and use tinytex for converting .Rmd files to .pdf (without a full TeX download).\nSample .tex and compiled .pdf files for slides in LaTeX (Beamer).\nInclude or omit solutions from a LaTeX problem set or exam. PDF\nInsert BibTeX entries into a CV, syllabus, etc. PDF\n(Usually) solve pdfLaTeX’s name{Hfootnote.XX} error. PDF\nSpeed up your LaTeX typesetting. PDF"
+  },
+  {
+    "objectID": "teaching/howtos.html#geographic-data-and-dc",
+    "href": "teaching/howtos.html#geographic-data-and-dc",
+    "title": "Helpful How-To’s",
+    "section": "Geographic data and DC",
+    "text": "Geographic data and DC\n\nObtain US Census data for Washington, DC tracts in R.\nPlace points within geographic boundaries using R’s point.in.polygon() function, by Alyssa Savo (AU 2019). PDF\nUse the ggmap package to plot points within Washington, DC, by Tess Harkin (AU 2019). PDF\nUse the MAR Geocoder to obtain geographic data about Washington, DC addresses, by Eric Brower (AU MPA 2019). PDF"
+  },
+  {
+    "objectID": "software/murl.html",
+    "href": "software/murl.html",
+    "title": "muRL",
+    "section": "",
+    "text": "muRL: Mailmerge using R, LaTeX, and the Web\nVersion 0.1-13\nRyan T. Moore and Andrew Reeves\nAvailable as a CRAN package.\nmuRL is an R package that provides mailmerge methods for reading spreadsheets of addresses and other relevant information, creating standardized but customizable letters, and mapping US ZIP codes, including the locations of recipients. It provides a method for parsing and processing HTML code from online job postings of the American Political Science Association (APSA eJobs). The many options associated with this functionality are described in detail in the muRL manual."
+  },
+  {
+    "objectID": "software/murl.html#installation",
+    "href": "software/murl.html#installation",
+    "title": "muRL",
+    "section": "Installation",
+    "text": "Installation\nTo install the latest version on CRAN, open R and type:\ninstall.packages(\"muRL\")\nlibrary(muRL)\nTo install the latest version (0.1-13) directly, download the package tarball and follow the tar.gz install instructions."
+  },
+  {
+    "objectID": "software/murl.html#some-helpful-documents",
+    "href": "software/murl.html#some-helpful-documents",
+    "title": "muRL",
+    "section": "Some helpful documents",
+    "text": "Some helpful documents\n\nUse muRL to produce high-quality letters using R and LaTeX. PDF\nUse muRL to scrape APSA eJobs HTML files to produce a spreadsheet of jobs to apply for. PDF\nThe full muRL manual. PDF\nHow to get started with R (for beginners, 1 page). PDF"
+  },
+  {
+    "objectID": "software/murl.html#citation",
+    "href": "software/murl.html#citation",
+    "title": "muRL",
+    "section": "Citation",
+    "text": "Citation\nThe peer-reviewed journal article describing muRL is\n\nMoore, Ryan T. and Andrew Reeves. “The Job Market’s First Steps: Using Research Tools to Simplify the Process”. PS: Political Science & Politics, 44(2):385–391, April 2011.\n\nIf you use this package, please cite the article. To cite the package, use\n\nRyan T. Moore and Andrew Reeves (2023). muRL: Mailmerge using R, LaTeX, and the Web. R package version 0.1-13. http://www.ryantmoore.org/software.muRL.html"
+  },
+  {
+    "objectID": "software/murl.html#missing-zip-codes",
+    "href": "software/murl.html#missing-zip-codes",
+    "title": "muRL",
+    "section": "Missing ZIP codes",
+    "text": "Missing ZIP codes\nIf you find that some recipients do not appear on your recipient map, their ZIP codes may be missing from the Census file. If you have a ZIP code you would like included for plotting, please email the package maintainer with four pieces of information:\n\nthe state in which the ZIP code is located,\nthe ZIP code itself,\nthe latitude of the ZIP code to six decimal places (such as 38.643248),\nand the longitude of the ZIP code to six decimal places (such as -75.611025).\n\nPlease also provide the city and any other information required to verify the latitude and longitude for inclusion. Thanks!"
+  },
+  {
+    "objectID": "software/murl.html#acknowledgements",
+    "href": "software/murl.html#acknowledgements",
+    "title": "muRL",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nMany thanks to Sonia Gerstenfield for solving a regular expression problem for version 0.1-11."
+  },
+  {
+    "objectID": "software/murl.html#previous-versions",
+    "href": "software/murl.html#previous-versions",
+    "title": "muRL",
+    "section": "Previous versions",
+    "text": "Previous versions\nFull CHANGELOG.\n\n0.1-13 (22 August 2023)\n0.1-12 (5 December 2019)\n0.1-11 (13 June 2017)\n0.1-10 (27 July 2015)\n0.1-9 (23 August 2013)\n0.1-8 (15 August 2013)\n0.1-7 (28 August 2012)\n0.1-6 (27 May 2011)\n0.1-5 (25 August 2010)\n0.1-4 (28 October 2009)\n0.1-3 (18 October 2009)\n0.1-2 (20 August 2009)\n0.1-1 (17 July 2009)"
+  },
+  {
+    "objectID": "software/install-targz.html",
+    "href": "software/install-targz.html",
+    "title": "Install an R Package from a .tar.gz file",
+    "section": "",
+    "text": "At the R prompt:\nlibrary(blockTools, repos = \"blockTools_0.6-2.tar.gz\")\nIn case that doesn’t work, follow the platform-specific instructions below."
+  },
+  {
+    "objectID": "software/install-targz.html#in-general",
+    "href": "software/install-targz.html#in-general",
+    "title": "Install an R Package from a .tar.gz file",
+    "section": "",
+    "text": "At the R prompt:\nlibrary(blockTools, repos = \"blockTools_0.6-2.tar.gz\")\nIn case that doesn’t work, follow the platform-specific instructions below."
+  },
+  {
+    "objectID": "software/install-targz.html#on-a-mac",
+    "href": "software/install-targz.html#on-a-mac",
+    "title": "Install an R Package from a .tar.gz file",
+    "section": "On a Mac",
+    "text": "On a Mac\n\nMake sure you have installed Xcode from the Mac App Store, and installed the command line tools from within Xcode.\nClose R.\nDownload the .tar.gz onto the Desktop.\nOpen the Terminal application.\nEnter R CMD INSTALL Desktop/[pkg.tar.gz] (without the brackets), where [pkg.tar.gz] is the full filename of the tar.gz (such as blockTools_0.5-7.tar.gz).\nOpen R.\nAt the R prompt:\nlibrary(blockTools)\n\nThen check that you have installed the desired version using:\nsessionInfo()"
+  },
+  {
+    "objectID": "software/install-targz.html#on-a-pc",
+    "href": "software/install-targz.html#on-a-pc",
+    "title": "Install an R Package from a .tar.gz file",
+    "section": "On a PC",
+    "text": "On a PC\nSee the instructions here."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Designing, conducting, and analyzing randomized experiments — including blocking on continuous covariates, assignment, and interference diagnostics.\nCRAN · Details\n\n\n\nReanalyzing randomized experiments as if they had been conducted as multi-arm bandits (MABs).\nCRAN · GitHub\n\n\n\nMailmerge in R and LaTeX — read spreadsheets of addresses, generate customizable letters, map ZIP codes, and scrape APSA eJobs HTML.\nCRAN · Details\n\n\n\nEcological inference and higher-dimension data management. With Olivia Lau and Mike Kellermann.\nCRAN\n\n\n\nStatistical analysis and treatment-effect reporting in the style of the US Office of Evaluation Sciences. Works with model objects from lm() and estimatr::lm_robust().\nCRAN · OES standards"
+  },
+  {
+    "objectID": "software.html#r-packages",
+    "href": "software.html#r-packages",
+    "title": "Software",
+    "section": "",
+    "text": "Designing, conducting, and analyzing randomized experiments — including blocking on continuous covariates, assignment, and interference diagnostics.\nCRAN · Details\n\n\n\nReanalyzing randomized experiments as if they had been conducted as multi-arm bandits (MABs).\nCRAN · GitHub\n\n\n\nMailmerge in R and LaTeX — read spreadsheets of addresses, generate customizable letters, map ZIP codes, and scrape APSA eJobs HTML.\nCRAN · Details\n\n\n\nEcological inference and higher-dimension data management. With Olivia Lau and Mike Kellermann.\nCRAN\n\n\n\nStatistical analysis and treatment-effect reporting in the style of the US Office of Evaluation Sciences. Works with model objects from lm() and estimatr::lm_robust().\nCRAN · OES standards"
+  },
+  {
+    "objectID": "software.html#ios-applications",
+    "href": "software.html#ios-applications",
+    "title": "Software",
+    "section": "iOS applications",
+    "text": "iOS applications\n\n\nMilieu\nApple iOS application for survey data collection with geolocation. With Pedro Valdeolmillos and Andrew Reeves.\nApp Store · milieu.cc · Details"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ryan T. Moore",
+    "section": "",
+    "text": "Associate Professor of Government, American University\nAssociate Director, Center for Data Science, American University\nSenior Social Scientist, The Lab @ DC\nI study statistical political methodology, with applications in American social policy — especially experiments and experimental design, causal inference, ecological and geolocated data, and reproducible social science. I also write statistical software and teach at American University. More below.\n\nCV GitHub More GitHub Google Scholar ORCiD"
+  },
+  {
+    "objectID": "index.html#upcoming-recent-news",
+    "href": "index.html#upcoming-recent-news",
+    "title": "Ryan T. Moore",
+    "section": "Upcoming & Recent News",
+    "text": "Upcoming & Recent News\n\n\nJul 2026 Teaching 1I: Applied Causal Inference with Observational Data at ESS\nJul 2026 Teaching 2K: Causal Inference and Experiments in the Social Sciences at ESS\nDec 2025 The Public’s Science conference at the Institute for Advanced Study, Princeton, NJ\nJan 2025 blockTools 0.6.6 released on CRAN\nJul 2024 New paper in Nature Human Behaviour on a randomized experiment of nurse-led 911 triage\nApr 2024 Awarded the Walter Beach Award by NCAPSA for “substantial contribution to strengthen the relationship between political science and public service”"
+  },
+  {
+    "objectID": "index.html#selected-work",
+    "href": "index.html#selected-work",
+    "title": "Ryan T. Moore",
+    "section": "Selected work",
+    "text": "Selected work\n\n\nNature Human Behaviour · 2024\nA Randomized Controlled Trial Evaluating the Effects of Nurse-Led Triage of 911 Calls\nWilson, Johnson, Hatzimasoura, Holman, Moore, and Yokum\nPDF · DOI · Project page\n\n\nJournal of Public Policy · 2022\nAnchor Management: A Field Experiment to Encourage Families to Meet Critical Programme Deadlines\nMoore, Gan, Minnich, and Yokum\nPDF · DOI · Replication\n\n\nPolitical Analysis · 2012\nMultivariate Continuous Blocking to Improve Political Science Experiments\nMoore\nPDF · Cambridge · blockTools"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Ryan T. Moore",
+    "section": "About",
+    "text": "About\nI have also been\n\na long-time EGAP affiliate\nVisiting Scholar at the Institut Barcelona d’Estudis Internacionals (IBEI, 2021-22)\nScholar in Health Policy Research at UC Berkeley/UCSF (2010–2012), funded by the Robert Wood Johnson Foundation\nFellow in Methodology with the federal Office of Evaluation Sciences (OES, 2019-2025)\nCo-host of SLAMM! 2016 at American University\nDoctoral fellow at Harvard’s Inequality and Social Policy program\nGraduate associate of the Institute for Quantitative Social Science (IQSS)"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "rtm (at) american (dot) edu"
+  },
+  {
+    "objectID": "contact.html#email",
+    "href": "contact.html#email",
+    "title": "Contact",
+    "section": "",
+    "text": "rtm (at) american (dot) edu"
+  },
+  {
+    "objectID": "contact.html#github",
+    "href": "contact.html#github",
+    "title": "Contact",
+    "section": "GitHub",
+    "text": "GitHub\n\n@ryantmoore — for academic work and OES\n@rtm-dc — for The Lab @ DC"
+  },
+  {
+    "objectID": "contact.html#mastodon",
+    "href": "contact.html#mastodon",
+    "title": "Contact",
+    "section": "Mastodon",
+    "text": "Mastodon\n@ryantmoore@masto.nu"
+  },
+  {
+    "objectID": "contact.html#orcid",
+    "href": "contact.html#orcid",
+    "title": "Contact",
+    "section": "ORCiD",
+    "text": "ORCiD\n0000-0002-3916-8113"
+  },
+  {
+    "objectID": "contact.html#telephone-voicemail",
+    "href": "contact.html#telephone-voicemail",
+    "title": "Contact",
+    "section": "Telephone & voicemail",
+    "text": "Telephone & voicemail\n+1 202 885 6470"
+  },
+  {
+    "objectID": "contact.html#office-address",
+    "href": "contact.html#office-address",
+    "title": "Contact",
+    "section": "Office address",
+    "text": "Office address\nDepartment of Government\nAmerican University\nKerwin Hall, Room 234\n4400 Massachusetts Avenue NW\nWashington DC 20016-8130"
+  },
+  {
+    "objectID": "advice/papers.html",
+    "href": "advice/papers.html",
+    "title": "Advice for Political Science Paper Writers",
+    "section": "",
+    "text": "Make sure your paper is analytic. Argue for an analytic (or “positive”) stance, rather than a normative one. In other words, engage in “objective” rather than “subjective” analysis. Answer the question “what is?”, rather than the question “what should be?”."
+  },
+  {
+    "objectID": "advice/papers.html#topic-question-thesis",
+    "href": "advice/papers.html#topic-question-thesis",
+    "title": "Advice for Political Science Paper Writers",
+    "section": "",
+    "text": "Make sure your paper is analytic. Argue for an analytic (or “positive”) stance, rather than a normative one. In other words, engage in “objective” rather than “subjective” analysis. Answer the question “what is?”, rather than the question “what should be?”."
+  },
+  {
+    "objectID": "advice/papers.html#audience-and-voice",
+    "href": "advice/papers.html#audience-and-voice",
+    "title": "Advice for Political Science Paper Writers",
+    "section": "Audience and voice",
+    "text": "Audience and voice\n\nYou are writing for a professional audience. Choose language and a tone that reflect this.\nProvide enough political, social, and/or intellectual context for your reader to understand the issue you address, and why one should care about it.\nWhen describing procedures you undertook, write in the first person. For example, write “We collected data from 1000 web sites” or “I then regress the outcome on two predictors, X1 and X2”. Avoid the passive voice. (Do not write “The data from 1000 web sites were collected” or “The outcome was regressed on X1 and X2”. These leave us wondering, “by whom?”)"
+  },
+  {
+    "objectID": "advice/papers.html#research-strategies",
+    "href": "advice/papers.html#research-strategies",
+    "title": "Advice for Political Science Paper Writers",
+    "section": "Research strategies",
+    "text": "Research strategies\n\nClearly state your specific question. Your question is a case of a more general set of political phenomena. Know the literature from the more general set.\nCompare your political phenomenon of interest to models of how politics works in such cases.\nUnderstand counterarguments, alternative explanations, and competing hypotheses to your own. Refute them to the extent possible."
+  },
+  {
+    "objectID": "advice/papers.html#structure",
+    "href": "advice/papers.html#structure",
+    "title": "Advice for Political Science Paper Writers",
+    "section": "Structure",
+    "text": "Structure\n\nRead and follow the “Ten Simple Rules for Structuring Papers”."
+  },
+  {
+    "objectID": "advice/papers.html#content",
+    "href": "advice/papers.html#content",
+    "title": "Advice for Political Science Paper Writers",
+    "section": "Content",
+    "text": "Content\n\nBe clear whether you’re making descriptive or causal claims.\nMake claims that are falsifiable. How would you know if you were wrong? What evidence would disagree with your argument?\nIn making causal claims, the nature of the implicit or explicit comparison group is important.\nIn making causal claims, do not control for or match on post-treatment quantities; avoid post-treatment bias.\nDiscuss measurement, modeling, design, and data strategies. Discuss limitations of your approaches.\nDo not include the specific names of variables or objects in your paper. It can be important to describe a variable you created, but its name is not important to the reader. For example, you might write “We create a binary measure of ideology that is 1 for respondents with scores greater than the median and 0 for those at or below the median.” You should not include the fact that you named the variable ideo7gr_med.\nProvide the details of your quantitative results.\nWeb sources should exclude wikis, include full citations (including access date), and be kept to a minimum. When possible, cite the original published document instead of the web version."
+  },
+  {
+    "objectID": "advice/papers.html#style",
+    "href": "advice/papers.html#style",
+    "title": "Advice for Political Science Paper Writers",
+    "section": "Style",
+    "text": "Style\n\nBe clear.\nBe concise.\nBe coherent."
+  },
+  {
+    "objectID": "advice/papers.html#formatting",
+    "href": "advice/papers.html#formatting",
+    "title": "Advice for Political Science Paper Writers",
+    "section": "Formatting",
+    "text": "Formatting\n\nSubmit your paper with a title page containing the title of the paper, author names, the date, a word count, and an abstract of 150 words or fewer.\nPapers written for GOVT 310, “Introduction to Political Research”, do not have a page limit. Most successful submissions range from 8–20 pages.\nFor word counts:\n\nInclude words that are in section headings, footnotes, in-text citations, and table or figure captions.\nExclude words that are on the title page, or are in the bibliography.\n\nDouble-space the content of the paper; single-space footnotes, captions, and the bibliography.\nProvide 1 inch margins on all four sides.\nUse a 12- (or 11-) point font.\nProvide page numbers.\nStaple your pages with a single staple in the upper left-hand corner.\nReferences in the text should employ a consistent formatting style. In political science, consider emulating the style used in the APSR or Political Analysis.\nYou may use footnotes or in-text citations.\nIf a figure or table is central to your argument, include it in the body of your paper. If it is supplementary, include it in an appendix."
+  },
+  {
+    "objectID": "advice/papers.html#data",
+    "href": "advice/papers.html#data",
+    "title": "Advice for Political Science Paper Writers",
+    "section": "Data",
+    "text": "Data\n\nHarvard’s IQSS data compilation for research papers\nHarvard’s Dataverse for data from published studies\nFederal Data Field Guide with overviews of data types, sources, and examples\nSources compiled by the AU subject librarian for GOVT-310 at https://subjectguides.library.american.edu/GOVT310Data\nUrban Institute’s Open Data portal\nErik Gahner’s list of political datasets\nThe House of Representatives Green Book with policy data on programs within Ways & Means’ jurisdiction (e.g., 50 years of average welfare caseloads)\nThe Luxembourg Income Study (LIS) for individual- and household-level economic activity (requires registration, which can take a few days)\nThe General Social Survey (GSS)\nData links from Machine Learning for Social Justice"
+  },
+  {
+    "objectID": "advice/papers.html#further-advice",
+    "href": "advice/papers.html#further-advice",
+    "title": "Advice for Political Science Paper Writers",
+    "section": "Further advice",
+    "text": "Further advice\n\nOn every step of the research process (data, coding, writing, presentation, management), see Harvard IQSS’s Undergraduate Research Resource Reservoir.\nOn writing nonfiction, read William K. Zinsser’s On Writing Well (noting that academic writing is different than humor writing, e.g.).\nOn writing for publication, read Gary King’s online notes and PS: Political Science and Politics article (PDF).\nOn writing for publication, read Andrew Gelman’s suggestions.\nOn citation, see the APSA citation style, the Chicago Manual of Style, and the MLA Handbook."
+  },
+  {
+    "objectID": "advice/recs.html",
+    "href": "advice/recs.html",
+    "title": "Advice for Recommendations",
+    "section": "",
+    "text": "If you would like me to write you a letter of recommendation:\n\nRead and follow Gary King’s advice.\nGive me as much advance notice before the recommendation due date as possible.\nIf you would like me to send letters directly to several destinations, please create a spreadsheet of the destinations (schools you are applying to, e.g.) with the following structure, including the exact column names below:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ninstitution\ninstShort\ndeadline\ntitle\nfname\nlname\ndept\nposition\nsubfield\naddress1\naddress2 (etc.)\ncity\nstate\nzip\n\n\n\n\nthe University of My State\nUMS\n2019-12-05\nDr.\nRichard\nSanders\nDepartment of Political Science\nPh.D. program\npolitical science\nGraduate Admissions Committee\n123 Hello Way\nFrederick\nMD\n21701\n\n\nState University College\nState UC\n2019-12-06\nProf.\nFrank\nBonner\nPolitical Science Department\nmaster’s program\npublic policy\nGraduate Admissions Committee\n348 LB Lane\nPeoria\nIL\n63112\n\n\n\n\nIf there is no specific person to send the letter to, use Admissions as the title and Committee as the last name.\nIf the ZIP code begins with a zero (e.g., 02138), omit the leading zero (e.g., 2138)."
+  },
+  {
+    "objectID": "events/slamm-2016.html",
+    "href": "events/slamm-2016.html",
+    "title": "SLAMM! 2016",
+    "section": "",
+    "text": "The Saint Louis Area Methods Meeting\nAmerican University\nWashington, DC\nFriday, 29 April 2016"
+  },
+  {
+    "objectID": "events/slamm-2016.html#registration",
+    "href": "events/slamm-2016.html#registration",
+    "title": "SLAMM! 2016",
+    "section": "Registration",
+    "text": "Registration\nSLAMM! is always free to attend, but registration is mandatory."
+  },
+  {
+    "objectID": "events/slamm-2016.html#schedule",
+    "href": "events/slamm-2016.html#schedule",
+    "title": "SLAMM! 2016",
+    "section": "Schedule",
+    "text": "Schedule\nPDF version.\n\n8:45 – 9:15 am — Coffee and light breakfast\n9:15 – 9:30 — Opening remarks\n9:30 – 10:30 — “Identification and Estimation of Joint Treatment Effects with Instrumental Variables”\nMatthew Blackwell, Harvard University. Paper PDF.\nDiscussant: Jamie Monogan, University of Georgia.\n10:45 – 11:45 — “Voters, Nonvoters and Attitudes Toward Income Inequality”\nJan Leighley, American University.\nDiscussant: Christopher Hare, University of California, Davis.\nNoon – 12:30 — “NSF Funding Opportunities for Political Methodologists”\nCheryl L. Eavey, National Science Foundation.\n12:30 – 1:45 — Lunch\n1:45 – 2:45 — “Can Caucuses Alleviate Partisan Polarization in Congress?”\nJennifer N. Victor, George Mason University. Paper PDF.\nDiscussant: Chris Warshaw, MIT.\n2:45 – 3:00 pm — Coffee and light snack\n3:00 – 4:00 pm — “What’s the Alternative?: An Equivalence Approach to Balance and Placebo Tests”\nErin Hartman, Princeton University / University of California, Los Angeles. Paper PDF.\nDiscussant: Hans Noel, Georgetown.\n4:00 – 4:10 pm — Closing remarks\n5 – 8 pm — Conference Dinner\nChef Geoff’s (link)\n3201 New Mexico Ave NW\n(PDF map)."
+  },
+  {
+    "objectID": "events/slamm-2016.html#location",
+    "href": "events/slamm-2016.html#location",
+    "title": "SLAMM! 2016",
+    "section": "Location",
+    "text": "Location\nYuma Building at the Washington College of Law (WCL)\nTerrace Room 17."
+  },
+  {
+    "objectID": "events/slamm-2016.html#directions",
+    "href": "events/slamm-2016.html#directions",
+    "title": "SLAMM! 2016",
+    "section": "Directions",
+    "text": "Directions\nWCL is 1 block from the Tenleytown-AU Metro Station, on Metro’s Red Line. The Yuma Building is directly across the street from 4001 Yuma Street NW. If you enter the WCL Warren Building at 4300 Nebraska Avenue NW, walk straight through and access the Yuma Building from the WCL courtyard."
+  },
+  {
+    "objectID": "events/slamm-2016.html#parking-at-wcl",
+    "href": "events/slamm-2016.html#parking-at-wcl",
+    "title": "SLAMM! 2016",
+    "section": "Parking at WCL",
+    "text": "Parking at WCL\nA limited number of free parking passes are available. Please email ccps@american.edu for a permit.\nParking is available at WCL for $2 per hour, $16 per day. The parking entrance is on 4300 Nebraska Avenue. To get to the Yuma Building, Terrace Room 17, drive to the end of level P1 or P2, take the bank of elevators there, come up to Terrace Level, and YT 17 is down the hallway in front of you, slightly to left."
+  },
+  {
+    "objectID": "events/slamm-2016.html#nearby-hotels",
+    "href": "events/slamm-2016.html#nearby-hotels",
+    "title": "SLAMM! 2016",
+    "section": "Nearby hotels",
+    "text": "Nearby hotels\nSee the AU local hotels list for hotels near American University."
+  },
+  {
+    "objectID": "events/slamm-2016.html#coffee-near-wcl",
+    "href": "events/slamm-2016.html#coffee-near-wcl",
+    "title": "SLAMM! 2016",
+    "section": "Coffee near WCL",
+    "text": "Coffee near WCL\n\nAtrium Cafe (between the Yuma Building and Capital Hall)\nWCL Dining Hall (Yuma Building)\nBourbon Coffee, 4200 Wisconsin Ave NW\nPanera, 4501 Wisconsin Ave NW\nStarbucks, 4513 Wisconsin Ave NW"
+  },
+  {
+    "objectID": "events/slamm-2016.html#special-thanks",
+    "href": "events/slamm-2016.html#special-thanks",
+    "title": "SLAMM! 2016",
+    "section": "Special thanks",
+    "text": "Special thanks\nWe are indebted to our sponsors for making this meeting possible:\n\nThe Center for Congressional and Presidential Studies at American University.\nThe School of Public Affairs Dean’s office Excellence with Impact program."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Experimental Design & Causal Inference\nDesigning more powerful experiments — blocking algorithms, sequential and field designs, and politically-robust designs — and the causal inference methods that connect them to politics and policy evaluation\nShow related work →\n\n\nSocial & Public Policy\nHow social and public policy works, and how it gets made: randomized and observational studies, several with The Lab @ DC, plus research on public-health access and direct democracy\nShow related work →\n\n\nPlace, Geography, & Political Behavior\nPolitical behavior and the contexts that shape it — using fine-grained geographic data to define racial and ethnic context, and studying interest groups, policymaking, direct democracy, and political activity online\nShow related work →\n\n\nStatistical Software & Pedagogy\nReproducible computation in social science — R packages for blocking, ecological inference, scraping HTML, and working with LaTeX — and teaching quantitative methods\nShow related work →"
+  },
+  {
+    "objectID": "research.html#research-areas",
+    "href": "research.html#research-areas",
+    "title": "Research",
+    "section": "",
+    "text": "Experimental Design & Causal Inference\nDesigning more powerful experiments — blocking algorithms, sequential and field designs, and politically-robust designs — and the causal inference methods that connect them to politics and policy evaluation\nShow related work →\n\n\nSocial & Public Policy\nHow social and public policy works, and how it gets made: randomized and observational studies, several with The Lab @ DC, plus research on public-health access and direct democracy\nShow related work →\n\n\nPlace, Geography, & Political Behavior\nPolitical behavior and the contexts that shape it — using fine-grained geographic data to define racial and ethnic context, and studying interest groups, policymaking, direct democracy, and political activity online\nShow related work →\n\n\nStatistical Software & Pedagogy\nReproducible computation in social science — R packages for blocking, ecological inference, scraping HTML, and working with LaTeX — and teaching quantitative methods\nShow related work →"
+  },
+  {
+    "objectID": "research.html#refereed-journal-articles",
+    "href": "research.html#refereed-journal-articles",
+    "title": "Research",
+    "section": "Refereed Journal Articles",
+    "text": "Refereed Journal Articles\n\n\nWilson, Kevin H., Rebecca A. Johnson, Chrysanthi Hatzimasoura, Robert P. Holman, Ryan T. Moore, and David Yokum. A Randomized Controlled Trial Evaluating the Effects of Nurse-Led Triage of 911 Calls. Nature Human Behaviour, 8:1276–1284, July 2024. PDF · PDF (SharedIt) · Nature journal page · Supplementary Materials · Publisher’s correction · Pub correction link · Replication code · Project page · OSF · DOI · DOI correction Field Experiment Causal Inference Public Health Public Safety\nAlva, Maria L., Natnaell Mammo, Ryan T. Moore, and Samuel Quinney. Do Shallow Rental Subsidies Promote Housing Stability? Evidence on Costs and Effects from DC’s Flexible Program. Urban Affairs Review, 59(5):1530–1566, 2023. PDF · Sage Journals page · Supplementary appendix (.docx) · Supplementary appendix (PDF) · UAR blog post Field Experiment Causal Inference Housing Policy Social Policy\nMoore, Ryan T., Katherine N. Gan, Karissa Minnich, and David Yokum. Anchor Management: A Field Experiment to Encourage Families to Meet Critical Programme Deadlines. Journal of Public Policy, 42(4):615–636, 2022. PDF · Cambridge Journals page · Supplementary materials · Appendix 1 · Appendix 2 · Replication data (GitHub) · Dataverse · Cambridge Core blog post · DOI Field Experiment Causal Inference Social Policy Economic Security\nMoore, Ryan T. and Andrew Reeves. Defining Racial and Ethnic Context with Geolocation Data. Political Science Research and Methods, 8(4):780–794, October 2020. PDF · Cambridge Core Share PDF · Cambridge Journals page · Supplementary appendix · Dataverse Geolocation & Place\nWirth, Kurt, Ericka Menchen-Trevino, and Ryan T. Moore. Bots By Topic: Exploring Differences in Bot Activity by Conversation Topic. In Proceedings of the 10th International Conference on Social Media and Society, pages 77–82, 2019. PDF · ACM page Political Behavior R / Software\nShenson, Douglas, Ryan T. Moore, William Benson, and Lynda A. Anderson. Polling Places, Pharmacies, and Public Health: Vote & Vax 2012. American Journal of Public Health, 105(6):e12–e15, 2015. PDF · APHA Journal page · JAMA coverage Public Health Geolocation & Place Political Behavior\nMoore, Ryan T. Overcoming Barriers to Heterogeneous-Group Learning in the Political Science Classroom. PS: Political Science & Politics, 48(1):149–156, 2015. PDF · Cambridge Journals page · Dataverse Pedagogy R / Software\nMoore, Ryan T. and Sally A. Moore. Blocking for Sequential Political Experiments. Political Analysis, 21(4):507–523, 2013. PDF · Cambridge Journals page · Supplementary appendix · Dataverse Causal Inference Experimental Design R / Software\nMoore, Ryan T., Eleanor Neff Powell, and Andrew Reeves. Driving Support: Workers, PACs, and Congressional Support of the Auto Industry. Business and Politics, 15(2):137–162, 2013. PDF · Cambridge Journals page · Supplementary appendix · Dataverse Political Behavior Geolocation & Place Interest Groups Policymaking\nMoore, Ryan T. Multivariate Continuous Blocking to Improve Political Science Experiments. Political Analysis, 20(4):460–479, 2012. PDF · Cambridge Journals page · Supplementary appendix · Dataverse Causal Inference Experimental Design R / Software\nMoore, Ryan T. and Christopher T. Giovinazzo. The Distortion Gap: Policymaking Under Federalism and Interest Group Capture. Publius: The Journal of Federalism, 42(2):189–210, 2012. PDF · Oxford Journals page · Supplementary appendix Interest Groups Policymaking Geolocation & Place\nMoore, Ryan T. and Nirmala Ravishankar. Who Loses in Direct Democracy?. Social Science Research, 41(3):646–656, May 2012. PDF · Supplementary materials · Science Direct page · Dataverse Political Behavior Social Policy Policymaking\nMoore, Ryan T. and Andrew Reeves. The Job Market’s First Steps: Using Research Tools to Simplify the Process. PS: Political Science & Politics, 44(2):385–391, April 2011. PDF · muRL software page Pedagogy R / Software\nKing, Gary, Emmanuela Gakidou, Kosuke Imai, Jason Lakin, Ryan T. Moore, Clayton Nall, Nirmala Ravishankar, Manett Vargas, Martha María Téllez-Rojo, Juan Eugenio Hernández Ávila, Mauricio Hernández Ávila, and Héctor Hernández Llamas. Public Policy for the Poor? A Randomised Assessment of the Mexican Universal Health Insurance Programme. The Lancet, 373(9673):1447–54, 25 April 2009. PDF · Dataverse Field Experiment Causal Inference Public Health Social Policy\nDalton, W. Brian, Mandayam O. Nandan, Ryan T. Moore, and Vincent W. Yang. Human Cancer Cells Commonly Acquire DNA Damage During Mitotic Arrest. Cancer Research, 67(24):11487–11492, 15 December 2007. PDF\nLau, Olivia, Ryan T. Moore, and Michael Kellermann. eiPack: R x C Ecological Inference and Higher-Dimension Data Management. R Journal, 7(2):43–47, 2007. PDF Geolocation & Place R / Software\nKing, Gary, Emmanuela Gakidou, Nirmala Ravishankar, Ryan T. Moore, Jason Lakin, Manett Vargas, Martha María Téllez-Rojo, Juan Eugenio Hernández Ávila, Mauricio Hernández Ávila, and Héctor Hernández Llamas. A ‘Politically Robust’ Experimental Design for Public Policy Evaluation, with Application to the Mexican Universal Health Insurance Program. Journal of Policy Analysis and Management, 26(3):479–509, 2007. PDF Field Experiment Causal Inference Experimental Design Public Health Social Policy"
+  },
+  {
+    "objectID": "research.html#book-chapters",
+    "href": "research.html#book-chapters",
+    "title": "Research",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\n\nMoore, Ryan T. and Andrew Reeves. Learning from Place in the Era of Geolocation. In Jennifer Bachner, Kathryn Wagner Hill, and Benjamin Ginsberg, editors, Analytics, Policy, and Governance, pages 118–136. Yale University Press, 2017. Book · Chapter PDF Geolocation & Place"
+  },
+  {
+    "objectID": "research.html#invited-contributions-and-other-publications",
+    "href": "research.html#invited-contributions-and-other-publications",
+    "title": "Research",
+    "section": "Invited Contributions and Other Publications",
+    "text": "Invited Contributions and Other Publications\n\n\nMontgomery, Jacob and Ryan T. Moore. Building and Maintaining R Packages with devtools and roxygen2. The Political Methodologist, 22(1):26–31, 2014. PDF · Blog post R / Software Pedagogy\nMoore, Ryan T. Blocking Political Science Experiments: Why, How, and Then What?. The Experimental Political Scientist, 1(1):3–5, 2010. PDF Causal Inference Experimental Design Pedagogy\nMoore, Ryan T. Review of Essential Mathematics for Political and Social Research, by Jeff Gill. The Political Methodologist, 14(2):16–18, 2006. PDF Pedagogy"
+  },
+  {
+    "objectID": "research.html#reports-pre-analysis-plans",
+    "href": "research.html#reports-pre-analysis-plans",
+    "title": "Research",
+    "section": "Reports & Pre-Analysis Plans",
+    "text": "Reports & Pre-Analysis Plans\n\nSelected applied-policy reports and pre-registered study designs, mostly from work with The Lab @ DC and partners.\n\n\n\nHuberts, Alyssa, Ryan Flynn, Ryan T. Moore, Jack Crum, Hersh Gupta, and Sam Quinney. Can a Predictive Model Help Target Fire Prevention Efforts? Evaluation Report, The Lab @ DC, October 2025. Link Field Experiment Causal Inference Public Safety\nCrum, Jack, Ryan Flynn, Katie Gan, Hersh Gupta, Alyssa Huberts, Ryan T. Moore, and Sam Quinney. Can fire safety inspections guided by a risk model improve fire safety? Pre-Analysis Plan. Open Science Framework, October 2024. OSF Field Experiment Causal Inference Public Safety\nHecht, Amelie, Rebecca Johnson, Anamita Gall, Katie Gan, and Ryan T. Moore. Can a Paid Internship Program Improve High School Students’ Success? A Pre-Analysis Plan. Open Science Framework, November 2023 (updated November 2025). OSF Causal Inference Social Policy Economic Security\nDignazio, Nathan, Ryan T. Moore, Katie O’Connell, and Sam Quinney. Pre-Analysis Plan Addendum: Flexible Rent Subsidy Pilot, Part 2: Program. Open Science Framework, March 2023. Field Experiment Causal Inference Housing Policy\nRavishankar, Anita, Ryan T. Moore, and Kevin H. Wilson. Pre-Analysis Plan: Policing in Historical and Cultural Context — Measuring Attitudinal Change with a Multi-wave Survey. Open Science Framework, May 2021. OSF Field Experiment Causal Inference Public Safety\nLeopold, Josh, Mychal Cohen, Kassie Scott, Maria Alva, Natnaell Mammo, Namita Mody, Ryan T. Moore, and Sam Quinney. DC Flexible Rent Subsidy Program: Findings from the Program’s First Year. Research Report, Urban Institute and The Lab @ DC, October 2020. PDF Field Experiment Causal Inference Housing Policy Social Policy\nQuinney, Sam, Namita Mody, Ryan T. Moore, Natnaell Mammo, and Hersh Gupta. Pre-Analysis Plan: Flexible Rent Subsidy Pilot, Part 2: Program. Open Science Framework, January 2020. OSF Field Experiment Causal Inference Housing Policy Experimental Design\nGan, Katherine N., Karissa Minnich, Vicky Mei, Namita Mody, and Ryan T. Moore. Coaching DC’s TANF Customers Towards Economic Security. Open Science Framework, May 2019. OSF Social Policy Economic Security\nGan, Katherine, Karissa Minnich, Ryan T. Moore, and David Yokum. Pre-Analysis Plan: A Randomized Controlled Trial to Evaluate Whether Behaviorally-Designed Reminder Letters Increase TANF Recertification. Open Science Framework, November 2017. OSF Field Experiment Causal Inference Experimental Design Social Policy Economic Security"
+  },
+  {
+    "objectID": "software/blocktools.html",
+    "href": "software/blocktools.html",
+    "title": "blockTools",
+    "section": "",
+    "text": "blockTools: Blocking, Assignment, and Diagnosing Interference in Randomized Experiments\nVersion 0.6.6\nRyan T. Moore and Keith Schnakenberg\nAvailable as a CRAN package."
+  },
+  {
+    "objectID": "software/blocktools.html#abstract",
+    "href": "software/blocktools.html#abstract",
+    "title": "blockTools",
+    "section": "Abstract",
+    "text": "Abstract\nCausal inference in social and biomedical research often relies on estimates from randomized experiments. blockTools offers functionality for designing, conducting, and analyzing aspects of randomized experiments. “Blocking” involves sorting experimental units into homogeneous groups prior to randomization. Randomization then occurs within those groups. blockTools allows experimentalists to easily\n\nblock experimental units using many background covariates simultaneously (including continuous ones);\nincorporate substantive knowledge via weights on variables;\nrandomly assign blocked units to treatment conditions within blocks;\ndetect possible interference between treatment and control units (“contamination”, or “spillovers”);\nquickly write tables of proposed blocks or experimental assignment protocols to .tex or .csv files."
+  },
+  {
+    "objectID": "software/blocktools.html#documentation",
+    "href": "software/blocktools.html#documentation",
+    "title": "blockTools",
+    "section": "Documentation",
+    "text": "Documentation\nThe manual details the many options associated with this functionality."
+  },
+  {
+    "objectID": "software/blocktools.html#installation",
+    "href": "software/blocktools.html#installation",
+    "title": "blockTools",
+    "section": "Installation",
+    "text": "Installation\nTo install and load blockTools, open R and type:\ninstall.packages(\"blockTools\")\nlibrary(blockTools)\nTo install the latest version (0.6.6) directly, download the package tarball and follow the tar.gz install instructions.\n(You might have to rezip the tarball if your downloader unzips it. I.e., if you see blockTools_0.6.6.tar, you might need to gzip blockTools_0.6.6.tar to recreate blockTools_0.6.6.tar.gz.)"
+  },
+  {
+    "objectID": "software/blocktools.html#using-blocktools",
+    "href": "software/blocktools.html#using-blocktools",
+    "title": "blockTools",
+    "section": "Using blockTools",
+    "text": "Using blockTools\nThere are 3 primary functions of blockTools: block, assignment, and diagnose.\n\nblock creates experimental blocks.\nassignment assigns one unit in each block to each treatment condition.\ndiagnose detects units of different treatment assignments that are “too close” or “too far away” from each other on some variable."
+  },
+  {
+    "objectID": "software/blocktools.html#helper-functions",
+    "href": "software/blocktools.html#helper-functions",
+    "title": "blockTools",
+    "section": "Helper Functions",
+    "text": "Helper Functions\nYou might find two recent helper functions useful:\n\ncreateBlockIDs takes an assignment object and creates a vector of block IDs.\nassg2xBalance interfaces between an assignment object and xBalance from package RItools.\n\nSee the package documentation for more details."
+  },
+  {
+    "objectID": "software/blocktools.html#examples",
+    "href": "software/blocktools.html#examples",
+    "title": "blockTools",
+    "section": "Examples",
+    "text": "Examples\nAt the R prompt, type:\ndata(x100)  ## load the example data\nout  &lt;- block(x100, id.vars = \"id\", block.vars = c(\"b1\", \"b2\"))\n              ## create blocked pairs\nassg &lt;- assignment(out)\n              ## assign one member of each pair to treatment/control\ndiag &lt;- diagnose(assg, x100, id.vars = \"id\",\n                 suspect.var = \"b1\", suspect.range = c(0, 1))\n              ## detect unit pairs with different treatment assignments\n              ## that are within 1 unit of each other on variable \"b1\"\nTo view the results:\nout$blocks  ## blocked pairs\nassg        ## assigned pairs\ndiag        ## pairs with small distances on covariates between them"
+  },
+  {
+    "objectID": "software/blocktools.html#speed-and-dataset-size",
+    "href": "software/blocktools.html#speed-and-dataset-size",
+    "title": "blockTools",
+    "section": "Speed and Dataset Size",
+    "text": "Speed and Dataset Size\nAs of version 0.5-1, all blocking is done in C. The block() function in that version was tested on a desktop machine (iMac, Intel Core i5, 3.6 GHz, 8 GB) and successfully completed these runs:\n\n\n\nUnits\nVariables\nAlgorithm\nTime\n\n\n\n\n1,000\n5\noptGreedy\n0m 1s\n\n\n5,000\n5\noptGreedy\n1m 35s\n\n\n10,000\n2\noptGreedy\n12m 53s\n\n\n10,000\n5\noptGreedy\n12m 38s\n\n\n10,000\n5\nnaiveGreedy\n0m 43s\n\n\n20,000\n5\noptGreedy\n101m 16s\n\n\n20,000\n5\nnaiveGreedy\n3m 59s"
+  },
+  {
+    "objectID": "software/blocktools.html#note-on-variable-restrictions",
+    "href": "software/blocktools.html#note-on-variable-restrictions",
+    "title": "blockTools",
+    "section": "Note on Variable Restrictions",
+    "text": "Note on Variable Restrictions\nIf you use the valid.var and valid.range arguments of the block function, this may result in fewer than the maximum possible number of blocks. To see why, consider how algorithm = \"optGreedy\" or algorithm = \"naiveGreedy\" would handle the distance matrix below. Either would select only the pair (1,2), rather than, e.g., pairs (1,3) and (2,4), as would algorithm = \"optimal\".\n\n\n\nInf\n2\n3\n4\n\n\n2\nInf\n5\n6\n\n\n3\n5\nInf\nInf\n\n\n4\n6\nInf\nInf"
+  },
+  {
+    "objectID": "software/blocktools.html#citation",
+    "href": "software/blocktools.html#citation",
+    "title": "blockTools",
+    "section": "Citation",
+    "text": "Citation\nIf you use this package, please cite the paper\n\nMoore, Ryan T. “Multivariate Continuous Blocking to Improve Political Science Experiments”. Political Analysis, 20(4):460–479, Autumn 2012.\n\nor\n\nMoore, Ryan T. and Sally A. Moore. “Blocking for Sequential Political Experiments”. Political Analysis, 21(4):507–523, 2013.\n\nas appropriate. The software can be cited directly as\n\nMoore, Ryan T. and Keith Schnakenberg. “blockTools: Blocking, Assignment, and Diagnosing Interference in Randomized Experiments”, Version 0.6.6, January 2025.\n\nFor an application, see:\n\nKing, Gary, Emmanuela Gakidou, Nirmala Ravishankar, Ryan T. Moore, Jason Lakin, Manett Vargas, Martha María Téllez-Rojo, Juan Eugenio Hernández Ávila, Mauricio Hernández Ávila, and Héctor Hernández Llamas. 2007. “A ‘Politically Robust’ Experimental Design for Public Policy Evaluation, with Application to the Mexican Universal Health Insurance Program”. Journal of Policy Analysis and Management, 26(3):479–509."
+  },
+  {
+    "objectID": "software/blocktools.html#previous-versions",
+    "href": "software/blocktools.html#previous-versions",
+    "title": "blockTools",
+    "section": "Previous versions",
+    "text": "Previous versions\nFull CHANGELOG.\n\n0.6.6 (2025-01-22)\n0.6.5 (2024-10-19)\n0.6.4 (2023-02-06)\n0.6-3 (2 December 2016)\n0.6-2 (8 January 2015)\n0.6-1 (22 May 2014)\n0.5-8 (8 April 2014)\n0.5-7 (30 July 2013)\n0.5-6 (1 August 2012)\n0.5-5 (11 June 2012)\n0.5-4 (7 May 2012)\n0.5-3 (4 March 2011)\n0.5-2 (16 November 2010)\n0.5-1 (6 October 2010)\n0.4-1 (28 October 2009)\n0.3 (29 April 2009)\n0.2 (10 April 2008)"
+  },
+  {
+    "objectID": "software/milieu.html",
+    "href": "software/milieu.html",
+    "title": "Milieu",
+    "section": "",
+    "text": "Version 1.0\nPedro Valdeolmillos, Ryan T. Moore, and Andrew Reeves\nAvailable on the Apple App Store.\nFor more information, see milieu.cc."
+  },
+  {
+    "objectID": "software/milieu.html#citation",
+    "href": "software/milieu.html#citation",
+    "title": "Milieu",
+    "section": "Citation",
+    "text": "Citation\n\nValdeolmillos, Pedro, Ryan T. Moore, and Andrew Reeves. “Milieu”. Apple App Store, Version 1.0, July 2015."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "How to write a successful paper\nIf you want me to write you a recommendation\nSoftware (muRL) to do LaTeX mailmerges, and automatically scrape APSA eJobs webpages\nA collection of helpful how-to guides on R, LaTeX, GitHub, and computing for political research"
+  },
+  {
+    "objectID": "teaching.html#general-advice",
+    "href": "teaching.html#general-advice",
+    "title": "Teaching",
+    "section": "",
+    "text": "How to write a successful paper\nIf you want me to write you a recommendation\nSoftware (muRL) to do LaTeX mailmerges, and automatically scrape APSA eJobs webpages\nA collection of helpful how-to guides on R, LaTeX, GitHub, and computing for political research"
+  },
+  {
+    "objectID": "teaching.html#this-term",
+    "href": "teaching.html#this-term",
+    "title": "Teaching",
+    "section": "This term",
+    "text": "This term\n\nIntroduction to Political Research · GOVT 310, sections 002 and 007· Autumn 2026\n\nSyllabus 002\nSyllabus 007\nFirst Week Checklist\nIntro to Course Resources\nShort Guide to R and RStudio\nGuide to Quarto\nInstructions for tinytex"
+  },
+  {
+    "objectID": "teaching.html#past-courses-at-american-university",
+    "href": "teaching.html#past-courses-at-american-university",
+    "title": "Teaching",
+    "section": "Past courses at American University",
+    "text": "Past courses at American University\n\n\n\n\n\n\nNoteShow full course history\n\n\n\n\n\n\n\nIntroduction to Quantitative Methods in Political Science (MA, GOVT 653), Spring 2025. Syllabus\nWinter Institute in Data Science (SPA 020/420/620), Winter 2026.\nThe Idea of a University (1Y, CORE 102), Autumn 2025.\nIntroduction to Political Research (GOVT 310-004), Autumn 2025. Syllabus\nIntroduction to Political Research (GOVT 310-007), Autumn 2025. Syllabus\nWinter Institute in Data Science (SPA 020/420/620), Winter 2025.\nIntroduction to Political Research (GOVT 310-011), Autumn 2024. Syllabus\nWinter Institute in Data Science (SPA 020/420/620), Winter 2024.\nIntroduction to Political Research (GOVT 310-001), Autumn 2023. Syllabus\nWinter Institute in Data Science (SPA 420/620), Winter 2023.\nIntroduction to Political Research (GOVT 310-003), Autumn 2022. Syllabus · Guide to RMarkdown\nIntro to Applied Political Data Science (GOVT 470/670), Autumn 2022. Syllabus\nIntroduction to Political Research (GOVT 310-007), Autumn 2020. Syllabus · Longer guide to R and the VCL\nIntro to Applied Political Data Science (GOVT 470/670), Autumn 2020. Syllabus\nData Science Capstone (GOVT 690-002), Spring 2020.\nIntro to Survey Research (GOVT 496/696), Spring 2020. Syllabus\nData Science Institute (GOVT 496/696), Winter 2020.\nIntro to Applied Political Data Science (GOVT 470/670), Autumn 2019. Repo (private)\nConduct of Inquiry IV: Causal Inference (SPA 615), Spring 2019. Syllabus\nIntro to Programming for Applied Political Data Science (GOVT 470/670), Spring 2019. Repo (private)\nIntroduction to Political Research (GOVT 310), Spring 2019.\nIntro to Programming for Applied Political Data Science (GOVT 470/670), Autumn 2018. Repo (private)\nIntro to Programming for Applied Political Data Science (GOVT 470/670), Spring 2018. Repo (private)\nIntroduction to Political Research (GOVT 310), Fall 2017. Code on ec_votes vector (from class), 31 August 2017.\nIntroduction to Political Research (GOVT 310), Spring 2017. Code to start swirl (from class), 19 January 2017.\nConduct of Inquiry II (GOVT 613), Spring 2015, 2016. Syllabus\nConduct of Inquiry II Laboratory (GOVT 096), Spring 2016. Syllabus\nConduct of Inquiry I (GOVT 612), Fall 2015. Syllabus\nConduct of Inquiry I Laboratory (GOVT 096), Fall 2015. Syllabus\nPolitical Power and American Public Policy (GOVT 210), Fall 2014."
+  }
+]
