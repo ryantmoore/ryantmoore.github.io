@@ -205,17 +205,20 @@ hr.section-divider {
   li {
     margin-bottom: 0.55rem;
     line-height: 1.55;
-    padding-left: 6.9em;     // matches .news-date min-width (6.5em) + margin-right (0.4em)
-    text-indent: -6.9em;     // hanging indent: date sits flush-left, wrapped lines align under content
+    display: flex;            // date in a fixed-width column, content in a flowing column
+    align-items: baseline;    // align date and content on the same text baseline
+    gap: 0.4rem;              // space between the date column and the content column
   }
 }
 .news-date {
-  display: inline-block;
-  min-width: 6.5em;
+  flex: 0 0 5.5em;            // fixed-width date column; wrapped content lines align after it
   font-size: 0.88rem;
   font-variant-numeric: tabular-nums;
   color: #888;
-  margin-right: 0.4rem;
+}
+.news-body {
+  flex: 1;                    // body fills the remaining width — all post-date inline content lives in this single flex item
+  min-width: 0;               // allow long content to wrap instead of overflowing the flex line
 }
 
 .featured-pubs {

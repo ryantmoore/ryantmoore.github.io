@@ -10,7 +10,6 @@ toc-title: "On this page"
 
 - How to [write a successful paper](advice/papers.qmd)
 - If you want me to [write you a recommendation](advice/recs.qmd)
-- How to present a paper
 - Software ([muRL](software/murl.qmd)) to do LaTeX mailmerges, and automatically scrape APSA eJobs webpages
 - A collection of [helpful how-to guides](teaching/howtos.qmd) on R, LaTeX, GitHub, and computing for political research
 
