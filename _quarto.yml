@@ -54,7 +54,7 @@ website:
   page-footer:
     left: "© 2002–2026 Ryan T. Moore"
     right:
-      - text: "Built with [Quarto](https://quarto.org)"
+      - "Built with [Quarto](https://quarto.org)"
       - text: "Source"
         href: https://github.com/ryantmoore/ryantmoore.github.io
 
