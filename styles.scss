@@ -23,6 +23,11 @@ body {
 
 main.content {
   max-width: 920px;
+  // Center within the grid cell at wide viewports. Without these, page-layout:full
+  // gives main.content the full row width and the 920px constraint sticks to the
+  // left, leaving a big gap on the right of wide screens.
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1.title {
