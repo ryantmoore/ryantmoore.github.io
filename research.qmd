@@ -120,7 +120,7 @@ Reproducible computation in social science — R packages for blocking, ecologic
   [Cambridge Journals page](https://www.cambridge.org/core/journals/political-analysis/article/blocking-for-sequential-political-experiments/F1441C1FA0D095FC12E1EE8E8F4DC7EA) ·
   [Supplementary appendix](/files/papers/bflySuppPA.pdf) ·
   [Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/21042)]{.pub-links}
-  [[Causal Inference]{.topic-tag data-topic="causal-inference"} [Experimental Design]{.topic-tag data-topic="experimental-design"} [R / Software]{.topic-tag data-topic="r-software"}]{.topic-tags}
+  [[Causal Inference]{.topic-tag data-topic="causal-inference"} [Experimental Design]{.topic-tag data-topic="experimental-design"} [Health Sciences]{.topic-tag data-topic="health-sciences"} [R / Software]{.topic-tag data-topic="r-software"}]{.topic-tags}
 
 - Moore, Ryan T., Eleanor Neff Powell, and Andrew Reeves. [**Driving Support: Workers, PACs, and Congressional Support of the Auto Industry**]{.pub-title}. [*Business and Politics*]{.pub-venue}, 15(2):137–162, 2013.
   [[PDF](/files/papers/driving.pdf) ·
@@ -161,6 +161,7 @@ Reproducible computation in social science — R packages for blocking, ecologic
 
 - Dalton, W. Brian, Mandayam O. Nandan, Ryan T. Moore, and Vincent W. Yang. [**Human Cancer Cells Commonly Acquire DNA Damage During Mitotic Arrest**]{.pub-title}. [*Cancer Research*]{.pub-venue}, 67(24):11487–11492, 15 December 2007.
   [[PDF](/files/papers/crDec07.pdf)]{.pub-links}
+  [[Health Sciences]{.topic-tag data-topic="health-sciences"}]{.topic-tags}
 
 - Lau, Olivia, Ryan T. Moore, and Michael Kellermann. [**eiPack: R x C Ecological Inference and Higher-Dimension Data Management**]{.pub-title}. [*R Journal*]{.pub-venue}, 7(2):43–47, 2007.
   [[PDF](/files/papers/eiPackArt.pdf)]{.pub-links}
