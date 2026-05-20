@@ -53,10 +53,9 @@ website:
 
   page-footer:
     left: "© 2002–2026 Ryan T. Moore"
-    right:
-      - "Built with [Quarto](https://quarto.org)"
-      - text: "Source"
-        href: https://github.com/ryantmoore/ryantmoore.github.io
+    # Single-string form so markdown links render. The list form (`- text:`)
+    # treats entries as literal text and would leave [Quarto](...) unrendered.
+    right: "Built with [Quarto](https://quarto.org) · [Source](https://github.com/ryantmoore/ryantmoore.github.io)"
 
 format:
   html:
