@@ -65,4 +65,4 @@ format:
     toc: false
     page-layout: full
     link-external-newwindow: true
-    link-external-icon: true
+    link-external-icon: false
