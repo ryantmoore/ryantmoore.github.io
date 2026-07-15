@@ -38,7 +38,7 @@ I study statistical political methodology, with applications in American social 
 
 ::: {.home-news}
 
-- [Jul 2026]{.news-date} [Teaching [1I](https://essexsummerschool.com/course/ess-2026-course-list/1i/): Applied Causal Inference with Observational Data at [ESS](https://essexsummerschool.com)]{.news-body}
+- [Jul 2026]{.news-date} [Presenting the [Harold Clarke lecture](https://essexsummerschool.com/summer-school-facts/social-programme/): 10 Experiments in Public Policy and What We Can Learn from Them at [ESS](https://essexsummerschool.com)]{.news-body}
 - [Jul 2026]{.news-date} [Teaching [2K](https://essexsummerschool.com/course/ess-2026-course-list/2k/): Causal Inference and Experiments in the Social Sciences at [ESS](https://essexsummerschool.com)]{.news-body}
 - [Dec 2025]{.news-date} [[_The Public's Science_](https://www.ias.edu/stsv-lab/publicscience) conference at the Institute for Advanced Study, Princeton, NJ]{.news-body}
 - [Jan 2025]{.news-date} [[`blockTools`](software/blocktools.qmd) 0.6.6 released on CRAN]{.news-body}
