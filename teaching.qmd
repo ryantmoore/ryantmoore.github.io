@@ -17,12 +17,11 @@ toc-title: "On this page"
 
 ::: {.current-term-card}
 
-**Introduction to Political Research** · GOVT 310, sections 002 and 007· Autumn 2026
+**Introduction to Political Research** · GOVT 310, sections 002 and 005· Autumn 2026
 
-- [Syllabus 002](/files/class/introPolResearch/syl2025fall-004.pdf)
-- [Syllabus 007](/files/class/introPolResearch/syl2025fall-007.pdf)
+- [Syllabus](/files/class/introPolResearch/syl2026fall.pdf)
 - [First Week Checklist](/files/class/introPolResearch/first_week_checklist.pdf)
-- [Intro to Course Resources](/files/class/introPolResearch/intro_Course_Tech.pdf)
+- [Intro to Course Resources](/files/class/introPolResearch/intro_course_tech.pdf)
 - [Short Guide to R and RStudio](/files/class/introPolResearch/intro_R_short.pdf)
 - [Guide to Quarto](/files/class/introPolResearch/intro_quarto.pdf)
 - [Instructions for `tinytex`](/files/class/introPolResearch/intro_tinytex.pdf)

@@ -56,6 +56,14 @@ Reproducible computation in social science — R packages for blocking, ecologic
 
 ::: {.pub-list}
 
+- Huberts, Alyssa, Ryan T. Moore, and Sam Quinney. [**Building In-House Capacity
+for Applied Policy Research at the State and Local Levels**]{#capacity-2026 .pub-title}. [*The ANNALS of the
+American Academy of Political and Social Science*]{.pub-venue}, 720:xx-xx, November 2026.
+  [[PDF](/files/papers/26-capacity.pdf) ·
+  [*ANNALS* journal page]() ·
+  [DOI]() ·
+  [[Policymaking]{.topic-tag data-topic="policymaking"} [Social Policy]{.topic-tag data-topic="social-policy"}]{.topic-tags}
+
 - Wilson, Kevin H., Rebecca A. Johnson, Chrysanthi Hatzimasoura, Robert P. Holman, Ryan T. Moore, and David Yokum. [**A Randomized Controlled Trial Evaluating the Effects of Nurse-Led Triage of 911 Calls**]{#ntl-2024 .pub-title}. [*Nature Human Behaviour*]{.pub-venue}, 8:1276–1284, July 2024.
   [[PDF](/files/papers/24-ntl.pdf) ·
   [PDF (SharedIt)](https://rdcu.be/dISZm) ·
