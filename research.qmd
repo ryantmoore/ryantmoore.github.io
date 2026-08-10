@@ -62,6 +62,8 @@ American Academy of Political and Social Science*]{.pub-venue}, 720:xx-xx, Novem
   [[PDF](/files/papers/26-capacity.pdf) ·
   [*ANNALS* journal page]() ·
   [DOI]() ·
+  [Inst for Adv Study coverage](https://www.ias.edu/stsv-lab/publicscience) ·
+  [UC Santa Cruz coverage](https://news.ucsc.edu/2026/05/the-publics-science-initiative/)]{.pub-links}
   [[Policymaking]{.topic-tag data-topic="policymaking"} [Social Policy]{.topic-tag data-topic="social-policy"}]{.topic-tags}
 
 - Wilson, Kevin H., Rebecca A. Johnson, Chrysanthi Hatzimasoura, Robert P. Holman, Ryan T. Moore, and David Yokum. [**A Randomized Controlled Trial Evaluating the Effects of Nurse-Led Triage of 911 Calls**]{#ntl-2024 .pub-title}. [*Nature Human Behaviour*]{.pub-venue}, 8:1276–1284, July 2024.
