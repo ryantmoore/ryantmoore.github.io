@@ -12,7 +12,7 @@ Associate Professor of [Government](http://www.american.edu/spa/gov/), American 
 Associate Director, [Center for Data Science](https://www.american.edu/spa/data-science/), American University\
 Senior Social Scientist, [The Lab @ DC](https://thelab.dc.gov)
 
-I study statistical political methodology, with applications in American social policy — especially [experiments and experimental design](research.qmd), causal inference, ecological and geolocated data, and reproducible social science. I also write statistical [software](software.qmd) and [teach](teaching.qmd) at American University. More [below](#about).
+I study statistical political methodology, with applications in American social policy — especially [experiments and experimental design](research.qmd), causal inference, ecological and geolocated data, and reproducible social science. I also write statistical [software](software.qmd) and [teach](teaching.qmd) at American University (more [below](#about)).
 
 ::: {.home-links}
 [CV](/files/cvRTMoore.pdf){.btn .btn-outline-secondary .btn-sm}
@@ -39,7 +39,6 @@ I study statistical political methodology, with applications in American social 
 ::: {.home-news}
 
 - [Nov 2026]{.news-date} [Named as a funded "Impact Fellow" by [TRAC](https://www.american.edu/centers/trac/index.cfm) for 2026-27]{.news-body}
-- [Nov 2026]{.news-date} [Presenting "Generalized Orthogonal Designs" at [APPAM](https://t.ly/F7cOi) (Thursday)]{.news-body}
 - [Jul 2026]{.news-date} [Presenting the [Harold Clarke Distinguished Lecture](https://essexsummerschool.com/summer-school-facts/social-programme/): 10 Experiments in Public Policy and What We Can Learn from Them at [ESS](https://essexsummerschool.com)]{.news-body}
 - [Dec 2025]{.news-date} [[_The Public's Science_](https://www.ias.edu/stsv-lab/publicscience) conference at the Institute for Advanced Study, Princeton, NJ]{.news-body}
 - [Jan 2025]{.news-date} [[`blockTools`](software/blocktools.qmd) 0.6.6 released on CRAN]{.news-body}
