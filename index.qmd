@@ -38,6 +38,7 @@ I study statistical political methodology, with applications in American social 
 
 ::: {.home-news}
 
+- [Dec 2026]{.news-date} [Teaching the Winter [Institute in Data Science](https://www.american.edu/spa/data-science/data-science-institute.cfm) at AU (21 Dec 2026 - 9 Jan 2027)]{.news-body}
 - [Nov 2026]{.news-date} [Named as a funded "Impact Fellow" by [TRAC](https://www.american.edu/centers/trac/index.cfm) for 2026-27]{.news-body}
 - [Jul 2026]{.news-date} [Presenting the [Harold Clarke Distinguished Lecture](https://essexsummerschool.com/summer-school-facts/social-programme/): 10 Experiments in Public Policy and What We Can Learn from Them at [ESS](https://essexsummerschool.com)]{.news-body}
 - [Dec 2025]{.news-date} [[_The Public's Science_](https://www.ias.edu/stsv-lab/publicscience) conference at the Institute for Advanced Study, Princeton, NJ]{.news-body}
