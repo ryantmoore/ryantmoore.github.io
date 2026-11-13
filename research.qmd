@@ -57,11 +57,11 @@ Reproducible computation in social science — R packages for blocking, ecologic
 ::: {.pub-list}
 
 - Huberts, Alyssa, Ryan T. Moore, and Sam Quinney. [**Building In-House Capacity
-for Applied Policy Research at the State and Local Levels**]{#capacity-2026 .pub-title}. [*The ANNALS of the
-American Academy of Political and Social Science*]{.pub-venue}, 720:xx-xx, November 2026.
-  [[PDF](/files/papers/26-capacity.pdf) ·
+for Applied Policy Research at the State and Local Levels**]{#capacity-2027 .pub-title}. [*The ANNALS of the
+American Academy of Political and Social Science*]{.pub-venue}, 720:xx-xx, January 2027.
+  [[PDF](/files/papers/27-capacity.pdf) ·
   [*ANNALS* journal page]() ·
-  [DOI]() ·
+  [DOI](https://doi.org/10.1177/00027162261510486) ·
   [Inst for Adv Study coverage](https://www.ias.edu/stsv-lab/publicscience) ·
   [UC Santa Cruz coverage](https://news.ucsc.edu/2026/05/the-publics-science-initiative/)]{.pub-links}
   [[Policymaking]{.topic-tag data-topic="policymaking"} [Social Policy]{.topic-tag data-topic="social-policy"}]{.topic-tags}
